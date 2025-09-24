@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [  
+        {
+            "item": "skyoretrees:dirt_acorn"
+        }, {
+            "item": "skyoretrees:dirt_acorn"
+        }, {
+            "item": "skyoretrees:dirt_resin"
+        }, {
+            "item": "skyoretrees:dirt_resin"
+        }
+    ],
+    "result":
+    {
+        "id": "minecraft:dirt",
+        "count": 1
+    }
+}

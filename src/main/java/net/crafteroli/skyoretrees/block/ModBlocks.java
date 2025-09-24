@@ -27,7 +27,7 @@ public class ModBlocks {
     // Register
     public static final DeferredBlock<Block>  DIRT_PLANKS = registerBlock("dirt_planks",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .requiresCorrectToolForDrops()
+                    .mapColor(MapColor.WOOD)
                     .instrument(NoteBlockInstrument.BASS)
                     .strength(2.0F, 3.0F)
                     .sound(SoundType.WOOD)

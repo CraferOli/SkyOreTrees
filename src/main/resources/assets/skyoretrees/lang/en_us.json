@@ -3,7 +3,9 @@
   "item.skyoretrees.dirt_acorn": "Dirt Acorn",
 
   "block.skyoretrees.dirt_planks": "Dirt Planks",
-  "block.skyoretrees.dirt_leaves": "Dirt Leaves"
+  "block.skyoretrees.dirt_leaves": "Dirt Leaves",
+  "creativetab.skyoretrees.items_tab": "SkyOreTrees Items",
+  "creativetab.skyoretrees.blocks_tab": "SkyOreTrees Blocks"
 
 
 }
