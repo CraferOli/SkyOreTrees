@@ -57,6 +57,11 @@ public class SkyOreTrees {
             event.accept(ModItems.DIRT_RESIN);
             event.accept(ModItems.DIRT_ACORN);
         }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.DIRT_PLANKS);
+            event.accept(ModBlocks.DIRT_LEAVES);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

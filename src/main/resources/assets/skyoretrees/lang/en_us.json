@@ -1,5 +1,9 @@
 {
   "item.skyoretrees.dirt_resin": "Dirt Resin",
-  "item.skyoretrees.dirt_acorn": "Dirt Acorn"
+  "item.skyoretrees.dirt_acorn": "Dirt Acorn",
+
+  "block.skyoretrees.dirt_planks": "Dirt Planks",
+  "block.skyoretrees.dirt_leaves": "Dirt Leaves"
+
 
 }
