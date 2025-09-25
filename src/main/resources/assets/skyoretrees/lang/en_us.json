@@ -4,6 +4,11 @@
 
   "block.skyoretrees.dirt_planks": "Dirt Planks",
   "block.skyoretrees.dirt_leaves": "Dirt Leaves",
+
+  "item.skyoretrees.coal_resin": "Coal Resin",
+  "item.skyoretrees.coal_acorn": "Coal Acorn",
+
+
   "creativetab.skyoretrees.items_tab": "SkyOreTrees Items",
   "creativetab.skyoretrees.blocks_tab": "SkyOreTrees Blocks"
 

@@ -14,7 +14,13 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> DIRT_ACORN = ITEMS.register("dirt_acorn",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().food(ModFoodProperties.DIRT_ACORN)));
+
+    public static final DeferredItem<Item> COAL_RESIN = ITEMS.register("coal_resin",
+            () -> new FuelItem(new Item.Properties(), 600));
+
+    public static final DeferredItem<Item> COAL_ACORN = ITEMS.register("coal_acorn",
+            () -> new FuelItem(new Item.Properties().food(ModFoodProperties.COAL_ACORN), 600));
 
 
     public static void register(IEventBus eventBus) {

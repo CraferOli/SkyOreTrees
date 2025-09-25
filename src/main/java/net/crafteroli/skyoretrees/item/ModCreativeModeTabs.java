@@ -24,6 +24,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.DIRT_ACORN);
                         output.accept(ModItems.DIRT_RESIN);
+                        output.accept(ModItems.COAL_ACORN);
+                        output.accept(ModItems.COAL_RESIN);
 
                     }).build());
 
