@@ -1,0 +1,16 @@
+// 1.21	2025-09-28T11:04:27.7068618	Tags for minecraft:block mod id skyoretrees
+4d6f68fc2f874e2815aeead100aae2660065e4a6 data/minecraft/tags/block/buttons.json
+c096ffc84127dc613b35003465e615541bb3deb5 data/minecraft/tags/block/fences.json
+75d311cf4547857b5cd79b8606a682d01ae37449 data/minecraft/tags/block/fence_gates.json
+2518d7d296be822a3e3e5d4d2440cfa376cbf30c data/minecraft/tags/block/leaves.json
+59bfa2f8ee01d0728dc24ae67f3d4dcaeec295ea data/minecraft/tags/block/logs_that_burn.json
+5167139bcbd9bc5d6ba0c3aaf328f5d69e9364e5 data/minecraft/tags/block/mineable/axe.json
+2518d7d296be822a3e3e5d4d2440cfa376cbf30c data/minecraft/tags/block/mineable/hoe.json
+df5a92f244ff7cd670e99c4609fabd7c06344730 data/minecraft/tags/block/planks.json
+1407fccdd828ce02f8872dacc6b1cc6ab8c1d98e data/minecraft/tags/block/pressure_plates.json
+85bcfec3cc0596bbd54d4b1fb67fb871bdd48be5 data/minecraft/tags/block/slabs.json
+b0a82fbcc68f8a40de7a5e35d1905863921da036 data/minecraft/tags/block/stairs.json
+bc44acd4680f18ae77d7aa46566c673ab4f45df9 data/skyoretrees/tags/block/dirt_logs.json
+47a9e95923b0a05427ce8866dfcccd0eb3bbb602 data/skyoretrees/tags/block/leaves.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/skyoretrees/tags/block/logs.json
+6952552354ebbdc96247e4e97da54ec95dea3bb6 data/skyoretrees/tags/block/planks.json

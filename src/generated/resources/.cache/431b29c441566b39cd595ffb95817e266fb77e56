@@ -1,0 +1,9 @@
+// 1.21	2025-09-28T11:04:27.7130749	Tags for minecraft:item mod id skyoretrees
+2518d7d296be822a3e3e5d4d2440cfa376cbf30c data/minecraft/tags/item/leaves.json
+59bfa2f8ee01d0728dc24ae67f3d4dcaeec295ea data/minecraft/tags/item/logs_that_burn.json
+6952552354ebbdc96247e4e97da54ec95dea3bb6 data/minecraft/tags/item/planks.json
+a7ac4bb8d776d7109867576260c1e48fcb2d71b8 data/skyoretrees/tags/item/acorn.json
+bc44acd4680f18ae77d7aa46566c673ab4f45df9 data/skyoretrees/tags/item/dirt_logs.json
+47a9e95923b0a05427ce8866dfcccd0eb3bbb602 data/skyoretrees/tags/item/leaves.json
+6952552354ebbdc96247e4e97da54ec95dea3bb6 data/skyoretrees/tags/item/planks.json
+e2205d71a72c9549cf65fc4b616e5287fec44738 data/skyoretrees/tags/item/resin.json

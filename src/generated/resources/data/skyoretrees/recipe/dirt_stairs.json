@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dirt",
+  "key": {
+    "#": {
+      "item": "skyoretrees:dirt_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "skyoretrees:dirt_stairs"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dirt_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "skyoretrees:dirt_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "skyoretrees:dirt_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dirt_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "skyoretrees:dirt_slab"
+    ]
+  }
+}
