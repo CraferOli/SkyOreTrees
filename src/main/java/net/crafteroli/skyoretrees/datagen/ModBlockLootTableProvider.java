@@ -17,9 +17,23 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        dropSelf(ModBlocks.DIRT_PLANKS.get());
 
-        add(ModBlocks.DIRT_LEAVES.get(),block -> createLeavesDrops(ModBlocks.DIRT_LEAVES.get(), Block.byItem(ModItems.DIRT_RESIN.get()), 0.3f));
+
+        dropSelf(ModBlocks.DIRT_SAPLING.get());
+        this.add(ModBlocks.DIRT_LEAVES.get(), block -> createLeavesDrops(block, ModBlocks.DIRT_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        dropSelf(ModBlocks.SATURATED_DIRT_LOG.get());
+        dropSelf(ModBlocks.SATURATED_DIRT_WOOD.get());
+        dropSelf(ModBlocks.DIRT_LOG.get());
+        dropSelf(ModBlocks.DIRT_WOOD.get());
+        dropSelf(ModBlocks.STRIPPED_DIRT_LOG.get());
+        dropSelf(ModBlocks.STRIPPED_DIRT_WOOD.get());
+        dropSelf(ModBlocks.DIRT_PLANKS.get());
+        dropSelf(ModBlocks.DIRT_STAIRS.get());
+        add(ModBlocks.DIRT_SLAB.get(), block -> createSlabItemTable(ModBlocks.DIRT_SLAB.get()));
+        dropSelf(ModBlocks.DIRT_FENCE_GATE.get());
+        dropSelf(ModBlocks.DIRT_FENCE.get());
+        dropSelf(ModBlocks.DIRT_BUTTON.get());
+        dropSelf(ModBlocks.DIRT_PRESSURE_PLATE.get());
 
 
     }

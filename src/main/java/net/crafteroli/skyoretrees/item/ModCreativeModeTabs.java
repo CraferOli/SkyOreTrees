@@ -36,8 +36,21 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.skyoretrees.blocks_tab"))
                     .displayItems((parameters, output) -> {
 
-                        output.accept(ModBlocks.DIRT_PLANKS);
+                        output.accept(ModBlocks.DIRT_SAPLING);
                         output.accept(ModBlocks.DIRT_LEAVES);
+                        output.accept(ModBlocks.SATURATED_DIRT_LOG);
+                        output.accept(ModBlocks.SATURATED_DIRT_WOOD);
+                        output.accept(ModBlocks.DIRT_LOG);
+                        output.accept(ModBlocks.DIRT_WOOD);
+                        output.accept(ModBlocks.STRIPPED_DIRT_LOG);
+                        output.accept(ModBlocks.STRIPPED_DIRT_WOOD);
+                        output.accept(ModBlocks.DIRT_PLANKS);
+                        output.accept(ModBlocks.DIRT_STAIRS);
+                        output.accept(ModBlocks.DIRT_SLAB);
+                        output.accept(ModBlocks.DIRT_FENCE_GATE);
+                        output.accept(ModBlocks.DIRT_FENCE);
+                        output.accept(ModBlocks.DIRT_BUTTON);
+                        output.accept(ModBlocks.DIRT_PRESSURE_PLATE);
 
                     }).build());
 

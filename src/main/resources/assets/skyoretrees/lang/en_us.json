@@ -1,16 +1,29 @@
 {
-  "item.skyoretrees.dirt_resin": "Dirt Resin",
-  "item.skyoretrees.dirt_acorn": "Dirt Acorn",
-
-  "block.skyoretrees.dirt_planks": "Dirt Planks",
+  "block.skyoretrees.dirt_sapling": "Dirt Sapling",
   "block.skyoretrees.dirt_leaves": "Dirt Leaves",
+  "block.skyoretrees.saturated_dirt_log": "Saturated Dirt Log",
+  "block.skyoretrees.saturated_dirt_wood": "Saturated Dirt Wood",
+  "block.skyoretrees.dirt_log": "Dirt Log",
+  "block.skyoretrees.dirt_wood": "Dirt Wood",
+  "block.skyoretrees.stripped_dirt_log": "Stripped Dirt Log",
+  "block.skyoretrees.stripped_dirt_wood": "Stripped Dirt Wood",
+  "block.skyoretrees.dirt_planks": "Dirt Planks",
+  "block.skyoretrees.dirt_stairs": "Dirt Stairs",
+  "block.skyoretrees.dirt_slab": "Dirt Slab",
+  "block.skyoretrees.dirt_fence_gate": "Dirt Fence Gate",
+  "block.skyoretrees.dirt_fence": "Dirt Fence",
+  "block.skyoretrees.dirt_button": "Dirt Button",
+  "block.skyoretrees.dirt_pressure_plate": "Dirt Pressure Plate",
+  "item.skyoretrees.dirt_acorn": "Dirt Acorn",
+  "item.skyoretrees.dirt_resin": "Dirt Resin",
 
-  "item.skyoretrees.coal_resin": "Coal Resin",
+
+
+
   "item.skyoretrees.coal_acorn": "Coal Acorn",
+  "item.skyoretrees.coal_resin": "Coal Resin",
 
 
   "creativetab.skyoretrees.items_tab": "SkyOreTrees Items",
   "creativetab.skyoretrees.blocks_tab": "SkyOreTrees Blocks"
-
-
 }
