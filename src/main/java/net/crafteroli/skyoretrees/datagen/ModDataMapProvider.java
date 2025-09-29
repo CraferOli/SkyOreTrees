@@ -1,6 +1,5 @@
 package net.crafteroli.skyoretrees.datagen;
 
-import net.crafteroli.skyoretrees.item.ModItems;
 import net.crafteroli.skyoretrees.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;

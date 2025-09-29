@@ -1,6 +1,6 @@
 package net.crafteroli.skyoretrees.block.custom;
 
-import net.crafteroli.skyoretrees.block.ModBlocks;
+import net.crafteroli.skyoretrees.init.TreeInit;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.AxeItem;
@@ -39,21 +39,7 @@ public class ModFlammableRotatedPillarBlock extends RotatedPillarBlock {
     private static final Map<Block, Block> STRIPPING = new HashMap<>();
 
     @Override
-    public @Nullable BlockState getToolModifiedState(BlockState state, UseOnContext context,
-                                                     ItemAbility itemAbility, boolean simulate) {
-        if (context.getItemInHand().getItem() instanceof AxeItem) {
-            if (STRIPPING.isEmpty()) {
-                STRIPPING.put(ModBlocks.SATURATED_DIRT_LOG.get(), ModBlocks.DIRT_LOG.get());
-                STRIPPING.put(ModBlocks.SATURATED_DIRT_WOOD.get(), ModBlocks.DIRT_WOOD.get());
-                STRIPPING.put(ModBlocks.DIRT_LOG.get(), ModBlocks.STRIPPED_DIRT_LOG.get());
-                STRIPPING.put(ModBlocks.DIRT_WOOD.get(), ModBlocks.STRIPPED_DIRT_WOOD.get());
-            }
-
-            Block strippedBlock = STRIPPING.get(state.getBlock());
-            if (strippedBlock != null) {
-                return strippedBlock.defaultBlockState().setValue(AXIS, state.getValue(AXIS));
-            }
-        }
-        return super.getToolModifiedState(state, context, itemAbility, simulate);
+    public @Nullable BlockState getToolModifiedState(BlockState state, UseOnContext context, ItemAbility itemAbility, boolean simulate) {
+        return context.getItemInHand().getItem() instanceof AxeItem && TreeInit.debarkingMap.containsKey(state.getBlock()) ? (BlockState) ((Block) TreeInit.debarkingMap.get(state.getBlock())).defaultBlockState().setValue(AXIS, (Direction.Axis) state.getValue(AXIS)) : super.getToolModifiedState(state, context, itemAbility, simulate);
     }
 }

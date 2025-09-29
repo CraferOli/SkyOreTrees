@@ -1,11 +1,10 @@
 package net.crafteroli.skyoretrees;
 
-import net.crafteroli.skyoretrees.block.ModBlocks;
+import net.crafteroli.skyoretrees.init.BlockInit;
+import net.crafteroli.skyoretrees.init.ItemInit;
+import net.crafteroli.skyoretrees.init.TreeInit;
 import net.crafteroli.skyoretrees.item.ModCreativeModeTabs;
-import net.crafteroli.skyoretrees.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.level.ItemLike;
+import net.crafteroli.skyoretrees.util.TreeBlocks;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -34,14 +33,13 @@ public class SkyOreTrees {
     public SkyOreTrees(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
         NeoForge.EVENT_BUS.register(this);
 
         ModCreativeModeTabs.register(modEventBus);
 
-        ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
-
+        ItemInit.register(modEventBus);
+        BlockInit.register(modEventBus);
+        TreeInit.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us

@@ -13,10 +13,11 @@ public class ModConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> DIRT_KEY = registerKey("tree_dirt");
 
-    public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
-    }
 
 
+
+
+    public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {}
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath(SkyOreTrees.MOD_ID, name));

@@ -1,12 +1,14 @@
 package net.crafteroli.skyoretrees.item;
 
 import net.crafteroli.skyoretrees.SkyOreTrees;
-import net.crafteroli.skyoretrees.block.ModBlocks;
+import net.crafteroli.skyoretrees.init.ItemInit;
+import net.crafteroli.skyoretrees.init.TreeInit;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.ItemLike;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -18,41 +20,43 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> SKYORETREES_ITEM_TAB = CREATIVE_MODE_TAB.register("skyoretrees_items_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.DIRT_RESIN.get()))
+                    .icon(() -> new ItemStack(ItemInit.DIRT_ACORN.get()))
                     .title(Component.translatable("creativetab.skyoretrees.items_tab"))
                     .displayItems((parameters, output) -> {
 
-                        output.accept(ModItems.DIRT_ACORN);
-                        output.accept(ModItems.DIRT_RESIN);
-                        output.accept(ModItems.COAL_ACORN);
-                        output.accept(ModItems.COAL_RESIN);
+                        output.accept(ItemInit.DIRT_ACORN);
+                        output.accept(ItemInit.DIRT_RESIN);
+                        output.accept(ItemInit.COAL_ACORN);
+                        output.accept(ItemInit.COAL_RESIN);
 
                     }).build());
 
+
     public static final Supplier<CreativeModeTab> SKYORETREES_BLOCK_TAB = CREATIVE_MODE_TAB.register("skyoretrees_blocks_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModBlocks.DIRT_PLANKS.get()))
+                    .icon(() -> new ItemStack(((ItemLike) TreeInit.DIRT_TREE_BLOCKS.SAPLING.get())))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(SkyOreTrees.MOD_ID, "skyoretrees_items_tab"))
                     .title(Component.translatable("creativetab.skyoretrees.blocks_tab"))
                     .displayItems((parameters, output) -> {
 
-                        output.accept(ModBlocks.DIRT_SAPLING);
-                        output.accept(ModBlocks.DIRT_LEAVES);
-                        output.accept(ModBlocks.SATURATED_DIRT_LOG);
-                        output.accept(ModBlocks.SATURATED_DIRT_WOOD);
-                        output.accept(ModBlocks.DIRT_LOG);
-                        output.accept(ModBlocks.DIRT_WOOD);
-                        output.accept(ModBlocks.STRIPPED_DIRT_LOG);
-                        output.accept(ModBlocks.STRIPPED_DIRT_WOOD);
-                        output.accept(ModBlocks.DIRT_PLANKS);
-                        output.accept(ModBlocks.DIRT_STAIRS);
-                        output.accept(ModBlocks.DIRT_SLAB);
-                        output.accept(ModBlocks.DIRT_FENCE_GATE);
-                        output.accept(ModBlocks.DIRT_FENCE);
-                        output.accept(ModBlocks.DIRT_BUTTON);
-                        output.accept(ModBlocks.DIRT_PRESSURE_PLATE);
+                        output.accept(TreeInit.DIRT_TREE_BLOCKS.SAPLING);
+                        output.accept((ItemLike) TreeInit.DIRT_TREE_BLOCKS.LEAVES);
+                        output.accept((ItemLike) TreeInit.DIRT_TREE_BLOCKS.SATURATED_LOG);
+                        output.accept((ItemLike) TreeInit.DIRT_TREE_BLOCKS.SATURATED_WOOD);
+                        output.accept((ItemLike) TreeInit.DIRT_TREE_BLOCKS.LOG);
+                        output.accept((ItemLike) TreeInit.DIRT_TREE_BLOCKS.WOOD);
+                        output.accept((ItemLike) TreeInit.DIRT_TREE_BLOCKS.STRIPPED_LOG);
+                        output.accept((ItemLike) TreeInit.DIRT_TREE_BLOCKS.STRIPPED_WOOD);
+                        output.accept((ItemLike) TreeInit.DIRT_TREE_BLOCKS.PLANKS);
+                        output.accept(TreeInit.DIRT_TREE_BLOCKS.STAIRS);
+                        output.accept(TreeInit.DIRT_TREE_BLOCKS.SLAB);
+                        output.accept(TreeInit.DIRT_TREE_BLOCKS.FENCE_GATE);
+                        output.accept(TreeInit.DIRT_TREE_BLOCKS.FENCE);
+                        output.accept(TreeInit.DIRT_TREE_BLOCKS.BUTTON);
+                        output.accept(TreeInit.DIRT_TREE_BLOCKS.PRESSURE_PLATE);
 
                     }).build());
+
 
 
     public static void register(IEventBus eventBus) {

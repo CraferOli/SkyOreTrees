@@ -1,4 +1,4 @@
-// 1.21	2025-09-28T11:04:27.7088808	Recipes
+// 1.21	2025-09-28T17:09:34.6921069	Recipes
 5e822662696cfbf9ad0cf4bf7e15e50183494ec7 data/skyoretrees/advancement/recipes/building_blocks/dirt_planks.json
 09f04b81b59e7caed51ca748bcb3a89f3511c327 data/skyoretrees/advancement/recipes/building_blocks/dirt_slab.json
 5395c5ee5bd63db88cc4a3ef085c2c6d5fe34482 data/skyoretrees/advancement/recipes/building_blocks/dirt_stairs.json
@@ -6,9 +6,13 @@ fc6c56de0d17e5d057537c93e71e6170665996bd data/skyoretrees/advancement/recipes/bu
 c48979f0423cd571dded6a1a39540d238d2977b3 data/skyoretrees/advancement/recipes/building_blocks/saturated_dirt_wood.json
 fe087a6f4853de8fb65b150fe4c4d952c9d7f5d0 data/skyoretrees/advancement/recipes/building_blocks/stripped_dirt_wood.json
 9d364ec29260b5797888da1fc8bf37fcf2749067 data/skyoretrees/advancement/recipes/decorations/dirt_fence.json
+7a7ba9bcb4b24606d8524e9a45f218e4ce87cd24 data/skyoretrees/advancement/recipes/misc/1x_dirt.json
+fbb9c001825f358ca4468904bfe9b64d7c4ed17a data/skyoretrees/advancement/recipes/misc/2x_dirt.json
 11bc677549545fa6030c3b2fff8d4fe357fd045d data/skyoretrees/advancement/recipes/redstone/dirt_button.json
 0ff4140e266cdcca2190715cc2e1bc4f897e509b data/skyoretrees/advancement/recipes/redstone/dirt_fence_gate.json
 1e6d489f0941101efe0a079e21b82de6730a68ba data/skyoretrees/advancement/recipes/redstone/dirt_pressure_plate.json
+82f517350d2d4a65fbe920a04272313cf65807e5 data/skyoretrees/recipe/1x_dirt.json
+0a3e2ee2c2e1291aacc74c6d37cce5b8746db6bb data/skyoretrees/recipe/2x_dirt.json
 3a0bf289e38425bcb8c8d4ccea5d24a20ddc413b data/skyoretrees/recipe/dirt_button.json
 d185d1bd3771628d5c1c56a9ebb8838bf781aded data/skyoretrees/recipe/dirt_fence.json
 9797e0c8d2b96f044a900e8f72971bdf2151bf53 data/skyoretrees/recipe/dirt_fence_gate.json
