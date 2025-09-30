@@ -23,6 +23,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+
         logBlock(((RotatedPillarBlock) ModBlocks.SATURATED_DIRT_LOG.get()));
         axisBlock(((RotatedPillarBlock) ModBlocks.SATURATED_DIRT_WOOD.get()), blockTexture(ModBlocks.SATURATED_DIRT_LOG.get()), blockTexture(ModBlocks.SATURATED_DIRT_LOG.get()));
         logBlock(((RotatedPillarBlock) ModBlocks.DIRT_LOG.get()));
@@ -49,6 +50,34 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.DIRT_SLAB);
         blockItem(ModBlocks.DIRT_FENCE_GATE);
         blockItem(ModBlocks.DIRT_PRESSURE_PLATE);
+
+
+        logBlock(((RotatedPillarBlock) ModBlocks.SATURATED_STONE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.SATURATED_STONE_WOOD.get()), blockTexture(ModBlocks.SATURATED_STONE_LOG.get()), blockTexture(ModBlocks.SATURATED_STONE_LOG.get()));
+        logBlock(((RotatedPillarBlock) ModBlocks.STONE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STONE_WOOD.get()), blockTexture(ModBlocks.STONE_LOG.get()), blockTexture(ModBlocks.STONE_LOG.get()));
+        logBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_STONE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_STONE_WOOD.get()), blockTexture(ModBlocks.STRIPPED_STONE_LOG.get()), blockTexture(ModBlocks.STRIPPED_STONE_LOG.get()));
+
+        saplingBlock(ModBlocks.STONE_SAPLING);
+        leavesBlock(ModBlocks.STONE_LEAVES);
+        blockItem(ModBlocks.SATURATED_STONE_LOG);
+        blockItem(ModBlocks.SATURATED_STONE_WOOD);
+        blockItem(ModBlocks.STONE_LOG);
+        blockItem(ModBlocks.STONE_WOOD);
+        blockItem(ModBlocks.STRIPPED_STONE_LOG);
+        blockItem(ModBlocks.STRIPPED_STONE_WOOD);
+        blockWithItem(ModBlocks.STONE_PLANKS);
+        stairsBlock(ModBlocks.STONE_STAIRS.get(), blockTexture(ModBlocks.STONE_PLANKS.get()));
+        slabBlock(ModBlocks.STONE_SLAB.get(), blockTexture(ModBlocks.STONE_PLANKS.get()), blockTexture(ModBlocks.STONE_PLANKS.get()));
+        fenceGateBlock(ModBlocks.STONE_FENCE_GATE.get(), blockTexture(ModBlocks.STONE_PLANKS.get()));
+        fenceBlock(ModBlocks.STONE_FENCE.get(), blockTexture(ModBlocks.STONE_PLANKS.get()));
+        buttonBlock(ModBlocks.STONE_BUTTON.get(), blockTexture(ModBlocks.STONE_PLANKS.get()));
+        pressurePlateBlock(ModBlocks.STONE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.STONE_PLANKS.get()));
+        blockItem(ModBlocks.STONE_STAIRS);
+        blockItem(ModBlocks.STONE_SLAB);
+        blockItem(ModBlocks.STONE_FENCE_GATE);
+        blockItem(ModBlocks.STONE_PRESSURE_PLATE);
 
 
 

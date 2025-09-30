@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": false,
+    "force_dirt": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size"
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "skyoretrees:saturated_stone_log"
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "skyoretrees:stone_leaves"
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 5,
+      "height_rand_a": 0,
+      "height_rand_b": 3
+    },
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "radius": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 0,
+            "data": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 3
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 2
+            }
+          }
+        ]
+      },
+      "offset": 0,
+      "height": 4
+    },
+    "decorators": []
+  }
+}

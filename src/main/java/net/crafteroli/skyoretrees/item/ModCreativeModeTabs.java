@@ -24,6 +24,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.DIRT_ACORN);
                         output.accept(ModItems.DIRT_RESIN);
+                        output.accept(ModItems.STONE_ACORN);
+                        output.accept(ModItems.STONE_RESIN);
                         output.accept(ModItems.COAL_ACORN);
                         output.accept(ModItems.COAL_RESIN);
 
@@ -51,6 +53,23 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DIRT_FENCE);
                         output.accept(ModBlocks.DIRT_BUTTON);
                         output.accept(ModBlocks.DIRT_PRESSURE_PLATE);
+
+
+                        output.accept(ModBlocks.STONE_SAPLING);
+                        output.accept(ModBlocks.STONE_LEAVES);
+                        output.accept(ModBlocks.SATURATED_STONE_LOG);
+                        output.accept(ModBlocks.SATURATED_STONE_WOOD);
+                        output.accept(ModBlocks.STONE_LOG);
+                        output.accept(ModBlocks.STONE_WOOD);
+                        output.accept(ModBlocks.STRIPPED_STONE_LOG);
+                        output.accept(ModBlocks.STRIPPED_STONE_WOOD);
+                        output.accept(ModBlocks.STONE_PLANKS);
+                        output.accept(ModBlocks.STONE_STAIRS);
+                        output.accept(ModBlocks.STONE_SLAB);
+                        output.accept(ModBlocks.STONE_FENCE_GATE);
+                        output.accept(ModBlocks.STONE_FENCE);
+                        output.accept(ModBlocks.STONE_BUTTON);
+                        output.accept(ModBlocks.STONE_PRESSURE_PLATE);
 
                     }).build());
 

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/button_inventory",
   "textures": {
-    "texture": "skyoretrees:block/dirt_planks"
+    "texture": "skyoretrees:block/stone_planks"
   }
 }

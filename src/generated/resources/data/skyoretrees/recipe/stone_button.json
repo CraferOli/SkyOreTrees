@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "stone",
+  "ingredients": [
+    {
+      "item": "skyoretrees:stone_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyoretrees:stone_button"
+  }
+}

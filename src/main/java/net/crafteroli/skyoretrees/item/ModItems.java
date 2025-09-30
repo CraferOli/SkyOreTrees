@@ -15,6 +15,12 @@ public class ModItems {
     public static final DeferredItem<Item> DIRT_ACORN = ITEMS.register("dirt_acorn",
             () -> new Item(new Item.Properties().food(ModFoodProperties.DIRT_ACORN)));
 
+    public static final DeferredItem<Item> STONE_RESIN = ITEMS.register("stone_resin",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> STONE_ACORN = ITEMS.register("stone_acorn",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.STONE_ACORN)));
+
     public static final DeferredItem<Item> COAL_RESIN = ITEMS.register("coal_resin",
             () -> new FuelItem(new Item.Properties(), 600));
 

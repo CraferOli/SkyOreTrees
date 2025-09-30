@@ -12,6 +12,7 @@ import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfigur
 public class ModConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> DIRT_KEY = registerKey("tree_dirt");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> STONE_KEY = registerKey("tree_stone");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
     }

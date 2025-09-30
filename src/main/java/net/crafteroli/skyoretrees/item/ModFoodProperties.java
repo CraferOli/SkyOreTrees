@@ -18,8 +18,15 @@ public class ModFoodProperties {
             .saturationModifier(0.25f)
             .fast()
             .alwaysEdible()
-            .effect(() -> new MobEffectInstance(MobEffects.OOZING, 100, 2), 0.45f)
+            .effect(() -> new MobEffectInstance(MobEffects.BLINDNESS, 100, 1), 0.35f)
+            .build();
 
+    public static final FoodProperties STONE_ACORN = new FoodProperties.Builder()
+            .nutrition(2)
+            .saturationModifier(0.25f)
+            .fast()
+            .alwaysEdible()
+            .effect(() -> new MobEffectInstance(MobEffects.INFESTED, 500, 1), 0.35f)
             .build();
 
     public static final FoodProperties COAL_ACORN = new FoodProperties.Builder()

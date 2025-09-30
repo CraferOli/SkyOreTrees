@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "default": {
+        "feature": "skyoretrees:stone_tree",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.15,
+          "feature": {
+            "feature": "skyoretrees:stone_tree_fancy",
+            "placement": []
+          }
+        }
+      ]
+    }
+  }

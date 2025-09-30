@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "skyoretrees:block/stone_planks",
+    "side": "skyoretrees:block/stone_planks",
+    "top": "skyoretrees:block/stone_planks"
+  }
+}

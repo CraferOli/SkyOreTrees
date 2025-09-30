@@ -26,24 +26,29 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         tag(ModTags.Items.ACORN)
                 .add(ModItems.DIRT_ACORN.get())
+                .add(ModItems.STONE_ACORN.get())
                 .add(ModItems.COAL_ACORN.get())
         ;
 
         tag(ModTags.Items.RESIN)
                 .add(ModItems.DIRT_RESIN.get())
+                .add(ModItems.STONE_RESIN.get())
                 .add(ModItems.COAL_RESIN.get())
         ;
 
         tag(ModTags.Items.PLANKS)
                 .add(ModBlocks.DIRT_PLANKS.get().asItem())
+                .add(ModBlocks.STONE_PLANKS.get().asItem())
         ;
 
         tag(ModTags.Items.LEAVES)
                 .add(ModBlocks.DIRT_LEAVES.get().asItem())
+                .add(ModBlocks.STONE_LEAVES.get().asItem())
         ;
 
         this.tag(ItemTags.LOGS_THAT_BURN)
                 .addTag(ModTags.Items.DIRT_LOGS)
+                .addTag(ModTags.Items.STONE_LOGS)
         ;
 
         tag(ModTags.Items.DIRT_LOGS)
@@ -53,6 +58,15 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.DIRT_WOOD.get().asItem())
                 .add(ModBlocks.STRIPPED_DIRT_LOG.get().asItem())
                 .add(ModBlocks.STRIPPED_DIRT_WOOD.get().asItem())
+        ;
+
+        tag(ModTags.Items.STONE_LOGS)
+                .add(ModBlocks.SATURATED_STONE_LOG.get().asItem())
+                .add(ModBlocks.SATURATED_STONE_WOOD.get().asItem())
+                .add(ModBlocks.STONE_LOG.get().asItem())
+                .add(ModBlocks.STONE_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_STONE_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_STONE_WOOD.get().asItem())
         ;
 
         this.tag(ItemTags.LEAVES)

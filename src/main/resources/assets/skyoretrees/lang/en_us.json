@@ -17,7 +17,23 @@
   "item.skyoretrees.dirt_acorn": "Dirt Acorn",
   "item.skyoretrees.dirt_resin": "Dirt Resin",
 
-
+  "block.skyoretrees.stone_sapling": "Stone Sapling",
+  "block.skyoretrees.stone_leaves": "Stone Leaves",
+  "block.skyoretrees.saturated_stone_log": "Saturated Stone Log",
+  "block.skyoretrees.saturated_stone_wood": "Saturated Stone Wood",
+  "block.skyoretrees.stone_log": "Stone Log",
+  "block.skyoretrees.stone_wood": "Stone Wood",
+  "block.skyoretrees.stripped_stone_log": "Stripped Stone Log",
+  "block.skyoretrees.stripped_stone_wood": "Stripped Stone Wood",
+  "block.skyoretrees.stone_planks": "Stone Planks",
+  "block.skyoretrees.stone_stairs": "Stone Stairs",
+  "block.skyoretrees.stone_slab": "Stone Slab",
+  "block.skyoretrees.stone_fence_gate": "Stone Fence Gate",
+  "block.skyoretrees.stone_fence": "Stone Fence",
+  "block.skyoretrees.stone_button": "Stone Button",
+  "block.skyoretrees.stone_pressure_plate": "Stone Pressure Plate",
+  "item.skyoretrees.stone_acorn": "Stone Acorn",
+  "item.skyoretrees.stone_resin": "Stone Resin",
 
 
   "item.skyoretrees.coal_acorn": "Coal Acorn",

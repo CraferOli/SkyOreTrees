@@ -1,8 +1,11 @@
-// 1.21	2025-09-28T11:28:56.000985	Item Models: skyoretrees
+// 1.21	2025-09-30T23:32:23.074845	Item Models: skyoretrees
 d3c9186cdb6e3a297dc2c53ad6f8087dac803f8e assets/skyoretrees/models/item/coal_acorn.json
 5398f1957b4cdbf9f407ed8320388f4ccf6c2def assets/skyoretrees/models/item/coal_resin.json
 4da07f9f75447a63c177e98872ff27665254a444 assets/skyoretrees/models/item/dirt_acorn.json
-214af23d85f0e31135c2cf5f0fa84eb83e3f2322 assets/skyoretrees/models/item/dirt_button.json
-da55cf6c322429239fc017411db9180cb32e828d assets/skyoretrees/models/item/dirt_fence.json
 8f9d2254c6274e7a124e7ccf5f22d5ab8eed86bf assets/skyoretrees/models/item/dirt_resin.json
 db1dd452aab8cba06985ffb86ef6b4f35e6fb2cb assets/skyoretrees/models/item/dirt_sapling.json
+8a8230304a69e878a4f1d7052777423e74f65413 assets/skyoretrees/models/item/stone_acorn.json
+e231168fa4337f9926dd7f0dc1c90ba6f85abca6 assets/skyoretrees/models/item/stone_button.json
+799f47514fad8db7384c4bc23d09dd048097a70e assets/skyoretrees/models/item/stone_fence.json
+81576bc2ac384bc3cbbf107462c1962f47a7f584 assets/skyoretrees/models/item/stone_resin.json
+122a56e44e6a2091c26f80c69a5e790664041ea0 assets/skyoretrees/models/item/stone_sapling.json

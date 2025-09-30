@@ -21,13 +21,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.DIRT_ACORN.get());
         basicItem(ModItems.DIRT_RESIN.get());
 
+        basicItem(ModItems.STONE_ACORN.get());
+        basicItem(ModItems.STONE_RESIN.get());
+
         basicItem(ModItems.COAL_ACORN.get());
         basicItem(ModItems.COAL_RESIN.get());
 
         saplingItem(ModBlocks.DIRT_SAPLING);
-
         buttonItem(ModBlocks.DIRT_BUTTON, ModBlocks.DIRT_PLANKS);
         fenceItem(ModBlocks.DIRT_FENCE, ModBlocks.DIRT_PLANKS);
+
+        saplingItem(ModBlocks.STONE_SAPLING);
+        buttonItem(ModBlocks.STONE_BUTTON, ModBlocks.STONE_PLANKS);
+        fenceItem(ModBlocks.STONE_FENCE, ModBlocks.STONE_PLANKS);
     }
 
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {
