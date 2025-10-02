@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "skyoretrees:block/gold_planks",
+    "side": "skyoretrees:block/gold_planks",
+    "top": "skyoretrees:block/gold_planks"
+  }
+}

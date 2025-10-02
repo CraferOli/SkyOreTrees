@@ -4,6 +4,13 @@
     "skyoretrees:stone_button",
     "skyoretrees:coal_button",
     "skyoretrees:copper_button",
-    "skyoretrees:iron_button"
+    "skyoretrees:iron_button",
+    "skyoretrees:gold_button",
+    "skyoretrees:redstone_button",
+    "skyoretrees:lapis_button",
+    "skyoretrees:emerald_button",
+    "skyoretrees:diamond_button",
+    "skyoretrees:quartz_button",
+    "skyoretrees:debris_button"
   ]
 }

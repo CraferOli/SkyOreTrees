@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyoretrees:block/diamond_slab"
+    },
+    "type=double": {
+      "model": "skyoretrees:block/diamond_planks"
+    },
+    "type=top": {
+      "model": "skyoretrees:block/diamond_slab_top"
+    }
+  }
+}

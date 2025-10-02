@@ -4,6 +4,13 @@
     "skyoretrees:stone_leaves",
     "skyoretrees:coal_leaves",
     "skyoretrees:copper_leaves",
-    "skyoretrees:iron_leaves"
+    "skyoretrees:iron_leaves",
+    "skyoretrees:gold_leaves",
+    "skyoretrees:redstone_leaves",
+    "skyoretrees:lapis_leaves",
+    "skyoretrees:emerald_leaves",
+    "skyoretrees:diamond_leaves",
+    "skyoretrees:quartz_leaves",
+    "skyoretrees:debris_leaves"
   ]
 }

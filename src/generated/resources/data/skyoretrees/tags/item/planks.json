@@ -4,6 +4,13 @@
     "skyoretrees:stone_planks",
     "skyoretrees:coal_planks",
     "skyoretrees:copper_planks",
-    "skyoretrees:iron_planks"
+    "skyoretrees:iron_planks",
+    "skyoretrees:gold_planks",
+    "skyoretrees:redstone_planks",
+    "skyoretrees:lapis_planks",
+    "skyoretrees:emerald_planks",
+    "skyoretrees:diamond_planks",
+    "skyoretrees:quartz_planks",
+    "skyoretrees:debris_planks"
   ]
 }

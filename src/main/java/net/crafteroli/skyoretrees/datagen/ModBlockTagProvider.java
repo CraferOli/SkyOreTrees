@@ -31,6 +31,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.COAL_PLANKS.get())
                 .add(ModBlocks.COPPER_PLANKS.get())
                 .add(ModBlocks.IRON_PLANKS.get())
+                .add(ModBlocks.GOLD_PLANKS.get())
+                .add(ModBlocks.REDSTONE_PLANKS.get())
+                .add(ModBlocks.LAPIS_PLANKS.get())
+                .add(ModBlocks.EMERALD_PLANKS.get())
+                .add(ModBlocks.DIAMOND_PLANKS.get())
+                .add(ModBlocks.QUARTZ_PLANKS.get())
+                .add(ModBlocks.DEBRIS_PLANKS.get())
         ;
 
         tag(ModTags.Blocks.LEAVES)
@@ -39,6 +46,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.COAL_LEAVES.get())
                 .add(ModBlocks.COPPER_LEAVES.get())
                 .add(ModBlocks.IRON_LEAVES.get())
+                .add(ModBlocks.GOLD_LEAVES.get())
+                .add(ModBlocks.REDSTONE_LEAVES.get())
+                .add(ModBlocks.LAPIS_LEAVES.get())
+                .add(ModBlocks.EMERALD_LEAVES.get())
+                .add(ModBlocks.DIAMOND_LEAVES.get())
+                .add(ModBlocks.QUARTZ_LEAVES.get())
+                .add(ModBlocks.DEBRIS_LEAVES.get())
         ;
 
         this.tag(BlockTags.STAIRS)
@@ -47,6 +61,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.COAL_STAIRS.get())
                 .add(ModBlocks.COPPER_STAIRS.get())
                 .add(ModBlocks.IRON_STAIRS.get())
+                .add(ModBlocks.GOLD_STAIRS.get())
+                .add(ModBlocks.REDSTONE_STAIRS.get())
+                .add(ModBlocks.LAPIS_STAIRS.get())
+                .add(ModBlocks.EMERALD_STAIRS.get())
+                .add(ModBlocks.DIAMOND_STAIRS.get())
+                .add(ModBlocks.QUARTZ_STAIRS.get())
+                .add(ModBlocks.DEBRIS_STAIRS.get())
         ;
 
         this.tag(BlockTags.SLABS)
@@ -55,6 +76,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.COAL_SLAB.get())
                 .add(ModBlocks.COPPER_SLAB.get())
                 .add(ModBlocks.IRON_SLAB.get())
+                .add(ModBlocks.GOLD_SLAB.get())
+                .add(ModBlocks.REDSTONE_SLAB.get())
+                .add(ModBlocks.LAPIS_SLAB.get())
+                .add(ModBlocks.EMERALD_SLAB.get())
+                .add(ModBlocks.DIAMOND_SLAB.get())
+                .add(ModBlocks.QUARTZ_SLAB.get())
+                .add(ModBlocks.DEBRIS_SLAB.get())
         ;
 
         this.tag(BlockTags.FENCE_GATES)
@@ -63,6 +91,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.COAL_FENCE_GATE.get())
                 .add(ModBlocks.COPPER_FENCE_GATE.get())
                 .add(ModBlocks.IRON_FENCE_GATE.get())
+                .add(ModBlocks.GOLD_FENCE_GATE.get())
+                .add(ModBlocks.REDSTONE_FENCE_GATE.get())
+                .add(ModBlocks.LAPIS_FENCE_GATE.get())
+                .add(ModBlocks.EMERALD_FENCE_GATE.get())
+                .add(ModBlocks.DIAMOND_FENCE_GATE.get())
+                .add(ModBlocks.QUARTZ_FENCE_GATE.get())
+                .add(ModBlocks.DEBRIS_FENCE_GATE.get())
         ;
 
         this.tag(BlockTags.FENCES)
@@ -71,6 +106,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.COAL_FENCE.get())
                 .add(ModBlocks.COPPER_FENCE.get())
                 .add(ModBlocks.IRON_FENCE.get())
+                .add(ModBlocks.GOLD_FENCE.get())
+                .add(ModBlocks.REDSTONE_FENCE.get())
+                .add(ModBlocks.LAPIS_FENCE.get())
+                .add(ModBlocks.EMERALD_FENCE.get())
+                .add(ModBlocks.DIAMOND_FENCE.get())
+                .add(ModBlocks.QUARTZ_FENCE.get())
+                .add(ModBlocks.DEBRIS_FENCE.get())
         ;
 
         this.tag(BlockTags.BUTTONS)
@@ -79,6 +121,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.COAL_BUTTON.get())
                 .add(ModBlocks.COPPER_BUTTON.get())
                 .add(ModBlocks.IRON_BUTTON.get())
+                .add(ModBlocks.GOLD_BUTTON.get())
+                .add(ModBlocks.REDSTONE_BUTTON.get())
+                .add(ModBlocks.LAPIS_BUTTON.get())
+                .add(ModBlocks.EMERALD_BUTTON.get())
+                .add(ModBlocks.DIAMOND_BUTTON.get())
+                .add(ModBlocks.QUARTZ_BUTTON.get())
+                .add(ModBlocks.DEBRIS_BUTTON.get())
         ;
 
         this.tag(BlockTags.PRESSURE_PLATES)
@@ -87,6 +136,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.COAL_PRESSURE_PLATE.get())
                 .add(ModBlocks.COPPER_PRESSURE_PLATE.get())
                 .add(ModBlocks.IRON_PRESSURE_PLATE.get())
+                .add(ModBlocks.GOLD_PRESSURE_PLATE.get())
+                .add(ModBlocks.REDSTONE_PRESSURE_PLATE.get())
+                .add(ModBlocks.LAPIS_PRESSURE_PLATE.get())
+                .add(ModBlocks.EMERALD_PRESSURE_PLATE.get())
+                .add(ModBlocks.DIAMOND_PRESSURE_PLATE.get())
+                .add(ModBlocks.QUARTZ_PRESSURE_PLATE.get())
+                .add(ModBlocks.DEBRIS_PRESSURE_PLATE.get())
         ;
 
         this.tag(BlockTags.LOGS_THAT_BURN)
@@ -95,6 +151,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .addTag(ModTags.Blocks.COAL_LOGS)
                 .addTag(ModTags.Blocks.COPPER_LOGS)
                 .addTag(ModTags.Blocks.IRON_LOGS)
+                .addTag(ModTags.Blocks.GOLD_LOGS)
+                .addTag(ModTags.Blocks.REDSTONE_LOGS)
+                .addTag(ModTags.Blocks.LAPIS_LOGS)
+                .addTag(ModTags.Blocks.EMERALD_LOGS)
+                .addTag(ModTags.Blocks.DIAMOND_LOGS)
         ;
 
         tag(ModTags.Blocks.LOGS)
@@ -103,6 +164,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .addTag(ModTags.Blocks.COAL_LOGS)
                 .addTag(ModTags.Blocks.COPPER_LOGS)
                 .addTag(ModTags.Blocks.IRON_LOGS)
+                .addTag(ModTags.Blocks.GOLD_LOGS)
+                .addTag(ModTags.Blocks.REDSTONE_LOGS)
+                .addTag(ModTags.Blocks.LAPIS_LOGS)
+                .addTag(ModTags.Blocks.EMERALD_LOGS)
+                .addTag(ModTags.Blocks.DIAMOND_LOGS)
+                .addTag(ModTags.Blocks.QUARTZ_LOGS)
+                .addTag(ModTags.Blocks.DEBRIS_LOGS)
         ;
 
         tag(ModTags.Blocks.DIRT_LOGS)
@@ -148,6 +216,83 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.IRON_WOOD.get())
                 .add(ModBlocks.STRIPPED_IRON_LOG.get())
                 .add(ModBlocks.STRIPPED_IRON_WOOD.get())
+        ;
+
+
+        tag(ModTags.Blocks.GOLD_LOGS)
+                .add(ModBlocks.SATURATED_GOLD_LOG.get())
+                .add(ModBlocks.SATURATED_GOLD_WOOD.get())
+                .add(ModBlocks.GOLD_LOG.get())
+                .add(ModBlocks.GOLD_WOOD.get())
+                .add(ModBlocks.STRIPPED_GOLD_LOG.get())
+                .add(ModBlocks.STRIPPED_GOLD_WOOD.get())
+        ;
+
+
+        tag(ModTags.Blocks.REDSTONE_LOGS)
+                .add(ModBlocks.SATURATED_REDSTONE_LOG.get())
+                .add(ModBlocks.SATURATED_REDSTONE_WOOD.get())
+                .add(ModBlocks.REDSTONE_LOG.get())
+                .add(ModBlocks.REDSTONE_WOOD.get())
+                .add(ModBlocks.STRIPPED_REDSTONE_LOG.get())
+                .add(ModBlocks.STRIPPED_REDSTONE_WOOD.get())
+        ;
+
+
+        tag(ModTags.Blocks.LAPIS_LOGS)
+                .add(ModBlocks.SATURATED_LAPIS_LOG.get())
+                .add(ModBlocks.SATURATED_LAPIS_WOOD.get())
+                .add(ModBlocks.LAPIS_LOG.get())
+                .add(ModBlocks.LAPIS_WOOD.get())
+                .add(ModBlocks.STRIPPED_LAPIS_LOG.get())
+                .add(ModBlocks.STRIPPED_LAPIS_WOOD.get())
+        ;
+
+
+        tag(ModTags.Blocks.EMERALD_LOGS)
+                .add(ModBlocks.SATURATED_EMERALD_LOG.get())
+                .add(ModBlocks.SATURATED_EMERALD_WOOD.get())
+                .add(ModBlocks.EMERALD_LOG.get())
+                .add(ModBlocks.EMERALD_WOOD.get())
+                .add(ModBlocks.STRIPPED_EMERALD_LOG.get())
+                .add(ModBlocks.STRIPPED_EMERALD_WOOD.get())
+        ;
+
+
+        tag(ModTags.Blocks.DIAMOND_LOGS)
+                .add(ModBlocks.SATURATED_DIAMOND_LOG.get())
+                .add(ModBlocks.SATURATED_DIAMOND_WOOD.get())
+                .add(ModBlocks.DIAMOND_LOG.get())
+                .add(ModBlocks.DIAMOND_WOOD.get())
+                .add(ModBlocks.STRIPPED_DIAMOND_LOG.get())
+                .add(ModBlocks.STRIPPED_DIAMOND_WOOD.get())
+        ;
+
+
+        tag(ModTags.Blocks.QUARTZ_LOGS)
+                .add(ModBlocks.SATURATED_QUARTZ_LOG.get())
+                .add(ModBlocks.SATURATED_QUARTZ_WOOD.get())
+                .add(ModBlocks.QUARTZ_LOG.get())
+                .add(ModBlocks.QUARTZ_WOOD.get())
+                .add(ModBlocks.STRIPPED_QUARTZ_LOG.get())
+                .add(ModBlocks.STRIPPED_QUARTZ_WOOD.get())
+        ;
+        ;
+
+
+        tag(ModTags.Blocks.DEBRIS_LOGS)
+                .add(ModBlocks.SATURATED_DEBRIS_LOG.get())
+                .add(ModBlocks.SATURATED_DEBRIS_WOOD.get())
+                .add(ModBlocks.DEBRIS_LOG.get())
+                .add(ModBlocks.DEBRIS_WOOD.get())
+                .add(ModBlocks.STRIPPED_DEBRIS_LOG.get())
+                .add(ModBlocks.STRIPPED_DEBRIS_WOOD.get())
+        ;
+
+
+        this.tag(BlockTags.LOGS)
+                .addTag(ModTags.Blocks.QUARTZ_LOGS)
+                .addTag(ModTags.Blocks.DEBRIS_LOGS)
         ;
 
         this.tag(BlockTags.MINEABLE_WITH_AXE)

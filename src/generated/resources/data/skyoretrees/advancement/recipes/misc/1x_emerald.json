@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_emerald_acorn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "skyoretrees:emerald_acorn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "skyoretrees:1x_emerald"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_emerald_acorn"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "skyoretrees:1x_emerald"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "debris",
+  "ingredients": [
+    {
+      "item": "skyoretrees:debris_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyoretrees:debris_button"
+  }
+}

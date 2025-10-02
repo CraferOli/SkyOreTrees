@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_redstone_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "skyoretrees:redstone_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "skyoretrees:redstone_button"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_redstone_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "skyoretrees:redstone_button"
+    ]
+  }
+}

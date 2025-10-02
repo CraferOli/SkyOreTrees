@@ -21,4 +21,25 @@ public class ModTreeGrowers {
 
     public static final TreeGrower IRON = new TreeGrower(SkyOreTrees.MOD_ID + ":tree_iron",
             Optional.empty(), Optional.of(ModConfiguredFeatures.IRON_KEY), Optional.empty());
+
+    public static final TreeGrower GOLD = new TreeGrower(SkyOreTrees.MOD_ID + ":tree_gold",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.GOLD_KEY), Optional.empty());
+
+    public static final TreeGrower REDSTONE = new TreeGrower(SkyOreTrees.MOD_ID + ":tree_redstone",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.REDSTONE_KEY), Optional.empty());
+
+    public static final TreeGrower LAPIS = new TreeGrower(SkyOreTrees.MOD_ID + ":tree_lapis",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.LAPIS_KEY), Optional.empty());
+
+    public static final TreeGrower EMERALD = new TreeGrower(SkyOreTrees.MOD_ID + ":tree_emerald",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.EMERALD_KEY), Optional.empty());
+
+    public static final TreeGrower DIAMOND = new TreeGrower(SkyOreTrees.MOD_ID + ":tree_diamond",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.DIAMOND_KEY), Optional.empty());
+
+    public static final TreeGrower QUARTZ = new TreeGrower(SkyOreTrees.MOD_ID + ":tree_quartz",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.QUARTZ_KEY), Optional.empty());
+
+    public static final TreeGrower DEBRIS = new TreeGrower(SkyOreTrees.MOD_ID + ":tree_debris",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.DEBRIS_KEY), Optional.empty());
 }

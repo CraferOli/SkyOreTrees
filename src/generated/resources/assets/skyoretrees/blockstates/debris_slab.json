@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyoretrees:block/debris_slab"
+    },
+    "type=double": {
+      "model": "skyoretrees:block/debris_planks"
+    },
+    "type=top": {
+      "model": "skyoretrees:block/debris_slab_top"
+    }
+  }
+}

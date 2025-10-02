@@ -4,6 +4,13 @@
     "skyoretrees:stone_stairs",
     "skyoretrees:coal_stairs",
     "skyoretrees:copper_stairs",
-    "skyoretrees:iron_stairs"
+    "skyoretrees:iron_stairs",
+    "skyoretrees:gold_stairs",
+    "skyoretrees:redstone_stairs",
+    "skyoretrees:lapis_stairs",
+    "skyoretrees:emerald_stairs",
+    "skyoretrees:diamond_stairs",
+    "skyoretrees:quartz_stairs",
+    "skyoretrees:debris_stairs"
   ]
 }

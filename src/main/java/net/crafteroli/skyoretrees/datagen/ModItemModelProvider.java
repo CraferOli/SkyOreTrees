@@ -58,6 +58,62 @@ public class ModItemModelProvider extends ItemModelProvider {
         fenceItem(ModBlocks.IRON_FENCE, ModBlocks.IRON_PLANKS);
 
 
+        basicItem(ModItems.GOLD_ACORN.get());
+        basicItem(ModItems.GOLD_RESIN.get());
+
+        saplingItem(ModBlocks.GOLD_SAPLING);
+        buttonItem(ModBlocks.GOLD_BUTTON, ModBlocks.GOLD_PLANKS);
+        fenceItem(ModBlocks.GOLD_FENCE, ModBlocks.GOLD_PLANKS);
+
+
+        basicItem(ModItems.REDSTONE_ACORN.get());
+        basicItem(ModItems.REDSTONE_RESIN.get());
+
+        saplingItem(ModBlocks.REDSTONE_SAPLING);
+        buttonItem(ModBlocks.REDSTONE_BUTTON, ModBlocks.REDSTONE_PLANKS);
+        fenceItem(ModBlocks.REDSTONE_FENCE, ModBlocks.REDSTONE_PLANKS);
+
+
+        basicItem(ModItems.LAPIS_ACORN.get());
+        basicItem(ModItems.LAPIS_RESIN.get());
+
+        saplingItem(ModBlocks.LAPIS_SAPLING);
+        buttonItem(ModBlocks.LAPIS_BUTTON, ModBlocks.LAPIS_PLANKS);
+        fenceItem(ModBlocks.LAPIS_FENCE, ModBlocks.LAPIS_PLANKS);
+
+
+        basicItem(ModItems.EMERALD_ACORN.get());
+        basicItem(ModItems.EMERALD_RESIN.get());
+
+        saplingItem(ModBlocks.EMERALD_SAPLING);
+        buttonItem(ModBlocks.EMERALD_BUTTON, ModBlocks.EMERALD_PLANKS);
+        fenceItem(ModBlocks.EMERALD_FENCE, ModBlocks.EMERALD_PLANKS);
+
+
+        basicItem(ModItems.DIAMOND_ACORN.get());
+        basicItem(ModItems.DIAMOND_RESIN.get());
+
+        saplingItem(ModBlocks.DIAMOND_SAPLING);
+        buttonItem(ModBlocks.DIAMOND_BUTTON, ModBlocks.DIAMOND_PLANKS);
+        fenceItem(ModBlocks.DIAMOND_FENCE, ModBlocks.DIAMOND_PLANKS);
+
+
+        basicItem(ModItems.QUARTZ_ACORN.get());
+        basicItem(ModItems.QUARTZ_RESIN.get());
+
+        saplingItem(ModBlocks.QUARTZ_SAPLING);
+        buttonItem(ModBlocks.QUARTZ_BUTTON, ModBlocks.QUARTZ_PLANKS);
+        fenceItem(ModBlocks.QUARTZ_FENCE, ModBlocks.QUARTZ_PLANKS);
+
+
+        basicItem(ModItems.DEBRIS_ACORN.get());
+        basicItem(ModItems.DEBRIS_RESIN.get());
+
+        saplingItem(ModBlocks.DEBRIS_SAPLING);
+        buttonItem(ModBlocks.DEBRIS_BUTTON, ModBlocks.DEBRIS_PLANKS);
+        fenceItem(ModBlocks.DEBRIS_FENCE, ModBlocks.DEBRIS_PLANKS);
+
+
     }
 
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {

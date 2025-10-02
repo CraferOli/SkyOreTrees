@@ -30,6 +30,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.COAL_ACORN.get())
                 .add(ModItems.COPPER_ACORN.get())
                 .add(ModItems.IRON_ACORN.get())
+                .add(ModItems.GOLD_ACORN.get())
+                .add(ModItems.REDSTONE_ACORN.get())
+                .add(ModItems.LAPIS_ACORN.get())
+                .add(ModItems.EMERALD_ACORN.get())
+                .add(ModItems.DIAMOND_ACORN.get())
+                .add(ModItems.QUARTZ_ACORN.get())
+                .add(ModItems.DEBRIS_ACORN.get())
         ;
 
         tag(ModTags.Items.RESIN)
@@ -38,6 +45,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.COAL_RESIN.get())
                 .add(ModItems.COPPER_RESIN.get())
                 .add(ModItems.IRON_RESIN.get())
+                .add(ModItems.GOLD_RESIN.get())
+                .add(ModItems.REDSTONE_RESIN.get())
+                .add(ModItems.LAPIS_RESIN.get())
+                .add(ModItems.EMERALD_RESIN.get())
+                .add(ModItems.DIAMOND_RESIN.get())
+                .add(ModItems.QUARTZ_RESIN.get())
+                .add(ModItems.DEBRIS_RESIN.get())
         ;
 
         tag(ModTags.Items.PLANKS)
@@ -46,6 +60,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.COAL_PLANKS.get().asItem())
                 .add(ModBlocks.COPPER_PLANKS.get().asItem())
                 .add(ModBlocks.IRON_PLANKS.get().asItem())
+                .add(ModBlocks.GOLD_PLANKS.get().asItem())
+                .add(ModBlocks.REDSTONE_PLANKS.get().asItem())
+                .add(ModBlocks.LAPIS_PLANKS.get().asItem())
+                .add(ModBlocks.EMERALD_PLANKS.get().asItem())
+                .add(ModBlocks.DIAMOND_PLANKS.get().asItem())
+                .add(ModBlocks.QUARTZ_PLANKS.get().asItem())
+                .add(ModBlocks.DEBRIS_PLANKS.get().asItem())
         ;
 
         tag(ModTags.Items.LEAVES)
@@ -54,6 +75,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.COAL_LEAVES.get().asItem())
                 .add(ModBlocks.COPPER_LEAVES.get().asItem())
                 .add(ModBlocks.IRON_LEAVES.get().asItem())
+                .add(ModBlocks.GOLD_LEAVES.get().asItem())
+                .add(ModBlocks.REDSTONE_LEAVES.get().asItem())
+                .add(ModBlocks.LAPIS_LEAVES.get().asItem())
+                .add(ModBlocks.EMERALD_LEAVES.get().asItem())
+                .add(ModBlocks.DIAMOND_LEAVES.get().asItem())
+                .add(ModBlocks.QUARTZ_LEAVES.get().asItem())
+                .add(ModBlocks.DEBRIS_LEAVES.get().asItem())
         ;
 
         this.tag(ItemTags.LOGS_THAT_BURN)
@@ -62,6 +90,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .addTag(ModTags.Items.COAL_LOGS)
                 .addTag(ModTags.Items.COPPER_LOGS)
                 .addTag(ModTags.Items.IRON_LOGS)
+                .addTag(ModTags.Items.GOLD_LOGS)
+                .addTag(ModTags.Items.REDSTONE_LOGS)
+                .addTag(ModTags.Items.LAPIS_LOGS)
+                .addTag(ModTags.Items.EMERALD_LOGS)
+                .addTag(ModTags.Items.DIAMOND_LOGS)
+                .addTag(ModTags.Items.QUARTZ_LOGS)
+                .addTag(ModTags.Items.DEBRIS_LOGS)
         ;
 
         tag(ModTags.Items.DIRT_LOGS)
@@ -107,6 +142,69 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.IRON_WOOD.get().asItem())
                 .add(ModBlocks.STRIPPED_IRON_LOG.get().asItem())
                 .add(ModBlocks.STRIPPED_IRON_WOOD.get().asItem())
+        ;
+
+        tag(ModTags.Items.GOLD_LOGS)
+                .add(ModBlocks.SATURATED_GOLD_LOG.get().asItem())
+                .add(ModBlocks.SATURATED_GOLD_WOOD.get().asItem())
+                .add(ModBlocks.GOLD_LOG.get().asItem())
+                .add(ModBlocks.GOLD_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_GOLD_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_GOLD_WOOD.get().asItem())
+        ;
+
+        tag(ModTags.Items.REDSTONE_LOGS)
+                .add(ModBlocks.SATURATED_REDSTONE_LOG.get().asItem())
+                .add(ModBlocks.SATURATED_REDSTONE_WOOD.get().asItem())
+                .add(ModBlocks.REDSTONE_LOG.get().asItem())
+                .add(ModBlocks.REDSTONE_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_REDSTONE_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_REDSTONE_WOOD.get().asItem())
+        ;
+
+        tag(ModTags.Items.LAPIS_LOGS)
+                .add(ModBlocks.SATURATED_LAPIS_LOG.get().asItem())
+                .add(ModBlocks.SATURATED_LAPIS_WOOD.get().asItem())
+                .add(ModBlocks.LAPIS_LOG.get().asItem())
+                .add(ModBlocks.LAPIS_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_LAPIS_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_LAPIS_WOOD.get().asItem())
+        ;
+
+        tag(ModTags.Items.EMERALD_LOGS)
+                .add(ModBlocks.SATURATED_EMERALD_LOG.get().asItem())
+                .add(ModBlocks.SATURATED_EMERALD_WOOD.get().asItem())
+                .add(ModBlocks.EMERALD_LOG.get().asItem())
+                .add(ModBlocks.EMERALD_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_EMERALD_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_EMERALD_WOOD.get().asItem())
+        ;
+
+        tag(ModTags.Items.DIAMOND_LOGS)
+                .add(ModBlocks.SATURATED_DIAMOND_LOG.get().asItem())
+                .add(ModBlocks.SATURATED_DIAMOND_WOOD.get().asItem())
+                .add(ModBlocks.DIAMOND_LOG.get().asItem())
+                .add(ModBlocks.DIAMOND_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_DIAMOND_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_DIAMOND_WOOD.get().asItem())
+        ;
+
+        tag(ModTags.Items.QUARTZ_LOGS)
+                .add(ModBlocks.SATURATED_QUARTZ_LOG.get().asItem())
+                .add(ModBlocks.SATURATED_QUARTZ_WOOD.get().asItem())
+                .add(ModBlocks.QUARTZ_LOG.get().asItem())
+                .add(ModBlocks.QUARTZ_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_QUARTZ_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_QUARTZ_WOOD.get().asItem())
+        ;
+
+        tag(ModTags.Items.DEBRIS_LOGS)
+                .add(ModBlocks.SATURATED_DEBRIS_LOG.get().asItem())
+                .add(ModBlocks.SATURATED_DEBRIS_WOOD.get().asItem())
+                .add(ModBlocks.DEBRIS_LOG.get().asItem())
+                .add(ModBlocks.DEBRIS_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_DEBRIS_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_DEBRIS_WOOD.get().asItem())
         ;
 
         this.tag(ItemTags.LEAVES)

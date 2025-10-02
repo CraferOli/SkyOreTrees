@@ -16,6 +16,13 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> COAL_KEY = registerKey("tree_coal");
     public static final ResourceKey<ConfiguredFeature<?, ?>> COPPER_KEY = registerKey("tree_copper");
     public static final ResourceKey<ConfiguredFeature<?, ?>> IRON_KEY = registerKey("tree_iron");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> GOLD_KEY = registerKey("tree_gold");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> REDSTONE_KEY = registerKey("tree_redstone");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> LAPIS_KEY = registerKey("tree_lapis");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> EMERALD_KEY = registerKey("tree_emerald");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> DIAMOND_KEY = registerKey("tree_diamond");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> QUARTZ_KEY = registerKey("tree_quartz");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> DEBRIS_KEY = registerKey("tree_debris");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
     }

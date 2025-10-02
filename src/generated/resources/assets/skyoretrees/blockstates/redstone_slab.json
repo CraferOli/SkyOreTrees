@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyoretrees:block/redstone_slab"
+    },
+    "type=double": {
+      "model": "skyoretrees:block/redstone_planks"
+    },
+    "type=top": {
+      "model": "skyoretrees:block/redstone_slab_top"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyoretrees:block/gold_log",
+    "side": "skyoretrees:block/gold_log"
+  }
+}

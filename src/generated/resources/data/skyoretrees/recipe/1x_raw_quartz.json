@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "skyoretrees:quartz_acorn"
+    },
+    {
+      "item": "skyoretrees:quartz_acorn"
+    },
+    {
+      "item": "skyoretrees:quartz_resin"
+    },
+    {
+      "item": "skyoretrees:quartz_resin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:quartz"
+  }
+}

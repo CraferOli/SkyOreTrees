@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "skyoretrees:block/diamond_planks",
+    "side": "skyoretrees:block/diamond_planks",
+    "top": "skyoretrees:block/diamond_planks"
+  }
+}

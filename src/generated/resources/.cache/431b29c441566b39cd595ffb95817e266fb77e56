@@ -1,13 +1,20 @@
-// 1.21	2025-10-02T02:12:31.5015316	Tags for minecraft:item mod id skyoretrees
+// 1.21	2025-10-02T03:32:59.8603549	Tags for minecraft:item mod id skyoretrees
 2518d7d296be822a3e3e5d4d2440cfa376cbf30c data/minecraft/tags/item/leaves.json
-2b62dbdaf892040694ebb6957a206830f03113e3 data/minecraft/tags/item/logs_that_burn.json
-6952552354ebbdc96247e4e97da54ec95dea3bb6 data/minecraft/tags/item/planks.json
-0e3d718b69f8977cbbc4b07c64a8f9347b73cd5a data/skyoretrees/tags/item/acorn.json
+fd186a1602184402e09958615f3a19f2e90d7dd3 data/minecraft/tags/item/logs_that_burn.json
+df5a92f244ff7cd670e99c4609fabd7c06344730 data/minecraft/tags/item/planks.json
+e722712ac0878fd34cca41df1d409d7938e41284 data/skyoretrees/tags/item/acorn.json
 88b9a6aef269dd1b6f4fc96e74ab3ba2232e4490 data/skyoretrees/tags/item/coal_logs.json
 3b8002f3c942dc04ece9386cc19935316ce8f31d data/skyoretrees/tags/item/copper_logs.json
+9f3998ad74177a3e859f2c7e7d8db76a6266ef25 data/skyoretrees/tags/item/debris_logs.json
+e2e2c5c9bf60780d6270bcbd5cfd86a3055e2fab data/skyoretrees/tags/item/diamond_logs.json
 bc44acd4680f18ae77d7aa46566c673ab4f45df9 data/skyoretrees/tags/item/dirt_logs.json
+fdf29ad041b492ce1bf6cbcdba8d03f0b55ce860 data/skyoretrees/tags/item/emerald_logs.json
+512fd79faee30b2721767edf0237895ba5327a2a data/skyoretrees/tags/item/gold_logs.json
 0225b3ed6f07978d32f365e7fbe6e10dc6ee1035 data/skyoretrees/tags/item/iron_logs.json
-62c6475a4d87bcc34296e5d9155717a3c04dda5a data/skyoretrees/tags/item/leaves.json
-603039103f0c92c6d9682c15e9c81081183a8aed data/skyoretrees/tags/item/planks.json
-d2ae1c10d554d2da467cb21a1db7a29816294ad7 data/skyoretrees/tags/item/resin.json
+303b442b7ed4d541448af6ae8c0e3e0868d22947 data/skyoretrees/tags/item/lapis_logs.json
+958bdc1a18e154f2a6ec6b181d236896566e0a09 data/skyoretrees/tags/item/leaves.json
+43afe86d511349e372178303490093f6a939a022 data/skyoretrees/tags/item/planks.json
+5233fd593234f0dfce2bae9a6b5ce345c785e0d0 data/skyoretrees/tags/item/quartz_logs.json
+a5147ea737caa8bed930dd6abc03f4f16dc1d59c data/skyoretrees/tags/item/redstone_logs.json
+4bdb03a70612cee9194b399bc21253db2cbc749f data/skyoretrees/tags/item/resin.json
 d6f7b6302ee70a050cf2191d740a287f6d0e3447 data/skyoretrees/tags/item/stone_logs.json

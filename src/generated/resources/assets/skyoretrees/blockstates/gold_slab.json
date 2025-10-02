@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyoretrees:block/gold_slab"
+    },
+    "type=double": {
+      "model": "skyoretrees:block/gold_planks"
+    },
+    "type=top": {
+      "model": "skyoretrees:block/gold_slab_top"
+    }
+  }
+}

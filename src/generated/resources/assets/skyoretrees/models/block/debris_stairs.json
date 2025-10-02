@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "skyoretrees:block/debris_planks",
+    "side": "skyoretrees:block/debris_planks",
+    "top": "skyoretrees:block/debris_planks"
+  }
+}

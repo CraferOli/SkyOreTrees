@@ -4,6 +4,13 @@
     "skyoretrees:stone_pressure_plate",
     "skyoretrees:coal_pressure_plate",
     "skyoretrees:copper_pressure_plate",
-    "skyoretrees:iron_pressure_plate"
+    "skyoretrees:iron_pressure_plate",
+    "skyoretrees:gold_pressure_plate",
+    "skyoretrees:redstone_pressure_plate",
+    "skyoretrees:lapis_pressure_plate",
+    "skyoretrees:emerald_pressure_plate",
+    "skyoretrees:diamond_pressure_plate",
+    "skyoretrees:quartz_pressure_plate",
+    "skyoretrees:debris_pressure_plate"
   ]
 }

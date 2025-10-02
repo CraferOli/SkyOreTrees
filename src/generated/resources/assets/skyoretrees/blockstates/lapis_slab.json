@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyoretrees:block/lapis_slab"
+    },
+    "type=double": {
+      "model": "skyoretrees:block/lapis_planks"
+    },
+    "type=top": {
+      "model": "skyoretrees:block/lapis_slab_top"
+    }
+  }
+}

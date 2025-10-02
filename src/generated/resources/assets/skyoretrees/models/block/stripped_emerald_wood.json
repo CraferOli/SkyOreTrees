@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyoretrees:block/stripped_emerald_log",
+    "side": "skyoretrees:block/stripped_emerald_log"
+  }
+}

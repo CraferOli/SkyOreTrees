@@ -9,35 +9,78 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(SkyOreTrees.MOD_ID);
 
-    public static final DeferredItem<Item> DIRT_RESIN = ITEMS.register("dirt_resin",
-            () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> DIRT_ACORN = ITEMS.register("dirt_acorn",
             () -> new Item(new Item.Properties().food(ModFoodProperties.DIRT_ACORN)));
 
-    public static final DeferredItem<Item> STONE_RESIN = ITEMS.register("stone_resin",
+    public static final DeferredItem<Item> DIRT_RESIN = ITEMS.register("dirt_resin",
             () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> STONE_ACORN = ITEMS.register("stone_acorn",
             () -> new Item(new Item.Properties().food(ModFoodProperties.STONE_ACORN)));
 
-    public static final DeferredItem<Item> COAL_RESIN = ITEMS.register("coal_resin",
-            () -> new FuelItem(new Item.Properties(), 600));
+    public static final DeferredItem<Item> STONE_RESIN = ITEMS.register("stone_resin",
+            () -> new Item(new Item.Properties()));
 
     public static final DeferredItem<Item> COAL_ACORN = ITEMS.register("coal_acorn",
             () -> new FuelItem(new Item.Properties().food(ModFoodProperties.COAL_ACORN), 600));
 
+    public static final DeferredItem<Item> COAL_RESIN = ITEMS.register("coal_resin",
+            () -> new FuelItem(new Item.Properties(), 600));
+
+    public static final DeferredItem<Item> COPPER_ACORN = ITEMS.register("copper_acorn",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ACORN)));
+
     public static final DeferredItem<Item> COPPER_RESIN = ITEMS.register("copper_resin",
             () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> COPPER_ACORN = ITEMS.register("copper_acorn",
+    public static final DeferredItem<Item> IRON_ACORN = ITEMS.register("iron_acorn",
             () -> new Item(new Item.Properties().food(ModFoodProperties.ACORN)));
 
     public static final DeferredItem<Item> IRON_RESIN = ITEMS.register("iron_resin",
             () -> new Item(new Item.Properties()));
 
-    public static final DeferredItem<Item> IRON_ACORN = ITEMS.register("iron_acorn",
+    public static final DeferredItem<Item> GOLD_ACORN = ITEMS.register("gold_acorn",
             () -> new Item(new Item.Properties().food(ModFoodProperties.ACORN)));
+
+    public static final DeferredItem<Item> GOLD_RESIN = ITEMS.register("gold_resin",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> REDSTONE_ACORN = ITEMS.register("redstone_acorn",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ACORN)));
+
+    public static final DeferredItem<Item> REDSTONE_RESIN = ITEMS.register("redstone_resin",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> LAPIS_ACORN = ITEMS.register("lapis_acorn",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ACORN)));
+
+    public static final DeferredItem<Item> LAPIS_RESIN = ITEMS.register("lapis_resin",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> EMERALD_ACORN = ITEMS.register("emerald_acorn",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ACORN)));
+
+    public static final DeferredItem<Item> EMERALD_RESIN = ITEMS.register("emerald_resin",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> DIAMOND_ACORN = ITEMS.register("diamond_acorn",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ACORN)));
+
+    public static final DeferredItem<Item> DIAMOND_RESIN = ITEMS.register("diamond_resin",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> QUARTZ_ACORN = ITEMS.register("quartz_acorn",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ACORN)));
+
+    public static final DeferredItem<Item> QUARTZ_RESIN = ITEMS.register("quartz_resin",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> DEBRIS_ACORN = ITEMS.register("debris_acorn",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ACORN)));
+
+    public static final DeferredItem<Item> DEBRIS_RESIN = ITEMS.register("debris_resin",
+            () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

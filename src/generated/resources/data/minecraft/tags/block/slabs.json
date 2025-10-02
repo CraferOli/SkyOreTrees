@@ -4,6 +4,13 @@
     "skyoretrees:stone_slab",
     "skyoretrees:coal_slab",
     "skyoretrees:copper_slab",
-    "skyoretrees:iron_slab"
+    "skyoretrees:iron_slab",
+    "skyoretrees:gold_slab",
+    "skyoretrees:redstone_slab",
+    "skyoretrees:lapis_slab",
+    "skyoretrees:emerald_slab",
+    "skyoretrees:diamond_slab",
+    "skyoretrees:quartz_slab",
+    "skyoretrees:debris_slab"
   ]
 }

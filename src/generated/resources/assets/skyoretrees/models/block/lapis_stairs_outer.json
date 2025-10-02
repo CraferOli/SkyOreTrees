@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "skyoretrees:block/lapis_planks",
+    "side": "skyoretrees:block/lapis_planks",
+    "top": "skyoretrees:block/lapis_planks"
+  }
+}

@@ -4,6 +4,13 @@
     "skyoretrees:stone_fence_gate",
     "skyoretrees:coal_fence_gate",
     "skyoretrees:copper_fence_gate",
-    "skyoretrees:iron_fence_gate"
+    "skyoretrees:iron_fence_gate",
+    "skyoretrees:gold_fence_gate",
+    "skyoretrees:redstone_fence_gate",
+    "skyoretrees:lapis_fence_gate",
+    "skyoretrees:emerald_fence_gate",
+    "skyoretrees:diamond_fence_gate",
+    "skyoretrees:quartz_fence_gate",
+    "skyoretrees:debris_fence_gate"
   ]
 }

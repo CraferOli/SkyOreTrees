@@ -4,6 +4,13 @@
     "skyoretrees:stone_resin",
     "skyoretrees:coal_resin",
     "skyoretrees:copper_resin",
-    "skyoretrees:iron_resin"
+    "skyoretrees:iron_resin",
+    "skyoretrees:gold_resin",
+    "skyoretrees:redstone_resin",
+    "skyoretrees:lapis_resin",
+    "skyoretrees:emerald_resin",
+    "skyoretrees:diamond_resin",
+    "skyoretrees:quartz_resin",
+    "skyoretrees:debris_resin"
   ]
 }

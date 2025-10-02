@@ -4,6 +4,13 @@
     "skyoretrees:stone_acorn",
     "skyoretrees:coal_acorn",
     "skyoretrees:copper_acorn",
-    "skyoretrees:iron_acorn"
+    "skyoretrees:iron_acorn",
+    "skyoretrees:gold_acorn",
+    "skyoretrees:redstone_acorn",
+    "skyoretrees:lapis_acorn",
+    "skyoretrees:emerald_acorn",
+    "skyoretrees:diamond_acorn",
+    "skyoretrees:quartz_acorn",
+    "skyoretrees:debris_acorn"
   ]
 }

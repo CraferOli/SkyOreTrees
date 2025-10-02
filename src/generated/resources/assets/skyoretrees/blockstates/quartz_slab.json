@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyoretrees:block/quartz_slab"
+    },
+    "type=double": {
+      "model": "skyoretrees:block/quartz_planks"
+    },
+    "type=top": {
+      "model": "skyoretrees:block/quartz_slab_top"
+    }
+  }
+}

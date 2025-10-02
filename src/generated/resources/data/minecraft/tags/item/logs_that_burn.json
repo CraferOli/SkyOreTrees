@@ -4,6 +4,13 @@
     "#skyoretrees:stone_logs",
     "#skyoretrees:coal_logs",
     "#skyoretrees:copper_logs",
-    "#skyoretrees:iron_logs"
+    "#skyoretrees:iron_logs",
+    "#skyoretrees:gold_logs",
+    "#skyoretrees:redstone_logs",
+    "#skyoretrees:lapis_logs",
+    "#skyoretrees:emerald_logs",
+    "#skyoretrees:diamond_logs",
+    "#skyoretrees:quartz_logs",
+    "#skyoretrees:debris_logs"
   ]
 }

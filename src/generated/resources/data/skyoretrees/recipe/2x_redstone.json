@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "skyoretrees:redstone_acorn"
+    },
+    {
+      "item": "skyoretrees:redstone_resin"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:redstone"
+  }
+}
