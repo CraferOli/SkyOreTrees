@@ -2,6 +2,8 @@
   "values": [
     "skyoretrees:dirt_resin",
     "skyoretrees:stone_resin",
-    "skyoretrees:coal_resin"
+    "skyoretrees:coal_resin",
+    "skyoretrees:copper_resin",
+    "skyoretrees:iron_resin"
   ]
 }

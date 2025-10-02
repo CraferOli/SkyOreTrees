@@ -28,27 +28,40 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.DIRT_ACORN.get())
                 .add(ModItems.STONE_ACORN.get())
                 .add(ModItems.COAL_ACORN.get())
+                .add(ModItems.COPPER_ACORN.get())
+                .add(ModItems.IRON_ACORN.get())
         ;
 
         tag(ModTags.Items.RESIN)
                 .add(ModItems.DIRT_RESIN.get())
                 .add(ModItems.STONE_RESIN.get())
                 .add(ModItems.COAL_RESIN.get())
+                .add(ModItems.COPPER_RESIN.get())
+                .add(ModItems.IRON_RESIN.get())
         ;
 
         tag(ModTags.Items.PLANKS)
                 .add(ModBlocks.DIRT_PLANKS.get().asItem())
                 .add(ModBlocks.STONE_PLANKS.get().asItem())
+                .add(ModBlocks.COAL_PLANKS.get().asItem())
+                .add(ModBlocks.COPPER_PLANKS.get().asItem())
+                .add(ModBlocks.IRON_PLANKS.get().asItem())
         ;
 
         tag(ModTags.Items.LEAVES)
                 .add(ModBlocks.DIRT_LEAVES.get().asItem())
                 .add(ModBlocks.STONE_LEAVES.get().asItem())
+                .add(ModBlocks.COAL_LEAVES.get().asItem())
+                .add(ModBlocks.COPPER_LEAVES.get().asItem())
+                .add(ModBlocks.IRON_LEAVES.get().asItem())
         ;
 
         this.tag(ItemTags.LOGS_THAT_BURN)
                 .addTag(ModTags.Items.DIRT_LOGS)
                 .addTag(ModTags.Items.STONE_LOGS)
+                .addTag(ModTags.Items.COAL_LOGS)
+                .addTag(ModTags.Items.COPPER_LOGS)
+                .addTag(ModTags.Items.IRON_LOGS)
         ;
 
         tag(ModTags.Items.DIRT_LOGS)
@@ -69,12 +82,39 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.STRIPPED_STONE_WOOD.get().asItem())
         ;
 
+        tag(ModTags.Items.COAL_LOGS)
+                .add(ModBlocks.SATURATED_COAL_LOG.get().asItem())
+                .add(ModBlocks.SATURATED_COAL_WOOD.get().asItem())
+                .add(ModBlocks.COAL_LOG.get().asItem())
+                .add(ModBlocks.COAL_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_COAL_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_COAL_WOOD.get().asItem())
+        ;
+
+        tag(ModTags.Items.COPPER_LOGS)
+                .add(ModBlocks.SATURATED_COPPER_LOG.get().asItem())
+                .add(ModBlocks.SATURATED_COPPER_WOOD.get().asItem())
+                .add(ModBlocks.COPPER_LOG.get().asItem())
+                .add(ModBlocks.COPPER_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_COPPER_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_COPPER_WOOD.get().asItem())
+        ;
+
+        tag(ModTags.Items.IRON_LOGS)
+                .add(ModBlocks.SATURATED_IRON_LOG.get().asItem())
+                .add(ModBlocks.SATURATED_IRON_WOOD.get().asItem())
+                .add(ModBlocks.IRON_LOG.get().asItem())
+                .add(ModBlocks.IRON_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_IRON_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_IRON_WOOD.get().asItem())
+        ;
+
         this.tag(ItemTags.LEAVES)
                 .addTag(ModTags.Items.LEAVES)
         ;
 
         this.tag(ItemTags.PLANKS)
-                .add(ModBlocks.DIRT_PLANKS.get().asItem())
+                .addTag(ModTags.Items.PLANKS)
         ;
     }
 }

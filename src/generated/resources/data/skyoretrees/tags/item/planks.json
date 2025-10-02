@@ -1,6 +1,9 @@
 {
   "values": [
     "skyoretrees:dirt_planks",
-    "skyoretrees:stone_planks"
+    "skyoretrees:stone_planks",
+    "skyoretrees:coal_planks",
+    "skyoretrees:copper_planks",
+    "skyoretrees:iron_planks"
   ]
 }

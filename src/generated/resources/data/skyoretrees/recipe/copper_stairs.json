@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "copper",
+  "key": {
+    "#": {
+      "item": "skyoretrees:copper_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "skyoretrees:copper_stairs"
+  }
+}

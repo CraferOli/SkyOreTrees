@@ -1,6 +1,9 @@
 {
   "values": [
     "skyoretrees:dirt_slab",
-    "skyoretrees:stone_slab"
+    "skyoretrees:stone_slab",
+    "skyoretrees:coal_slab",
+    "skyoretrees:copper_slab",
+    "skyoretrees:iron_slab"
   ]
 }

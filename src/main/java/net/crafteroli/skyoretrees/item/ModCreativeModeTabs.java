@@ -28,6 +28,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.STONE_RESIN);
                         output.accept(ModItems.COAL_ACORN);
                         output.accept(ModItems.COAL_RESIN);
+                        output.accept(ModItems.COPPER_ACORN);
+                        output.accept(ModItems.COPPER_RESIN);
+                        output.accept(ModItems.IRON_ACORN);
+                        output.accept(ModItems.IRON_RESIN);
 
                     }).build());
 
@@ -54,7 +58,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DIRT_BUTTON);
                         output.accept(ModBlocks.DIRT_PRESSURE_PLATE);
 
-
                         output.accept(ModBlocks.STONE_SAPLING);
                         output.accept(ModBlocks.STONE_LEAVES);
                         output.accept(ModBlocks.SATURATED_STONE_LOG);
@@ -70,6 +73,54 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.STONE_FENCE);
                         output.accept(ModBlocks.STONE_BUTTON);
                         output.accept(ModBlocks.STONE_PRESSURE_PLATE);
+
+                        output.accept(ModBlocks.COAL_SAPLING);
+                        output.accept(ModBlocks.COAL_LEAVES);
+                        output.accept(ModBlocks.SATURATED_COAL_LOG);
+                        output.accept(ModBlocks.SATURATED_COAL_WOOD);
+                        output.accept(ModBlocks.COAL_LOG);
+                        output.accept(ModBlocks.COAL_WOOD);
+                        output.accept(ModBlocks.STRIPPED_COAL_LOG);
+                        output.accept(ModBlocks.STRIPPED_COAL_WOOD);
+                        output.accept(ModBlocks.COAL_PLANKS);
+                        output.accept(ModBlocks.COAL_STAIRS);
+                        output.accept(ModBlocks.COAL_SLAB);
+                        output.accept(ModBlocks.COAL_FENCE_GATE);
+                        output.accept(ModBlocks.COAL_FENCE);
+                        output.accept(ModBlocks.COAL_BUTTON);
+                        output.accept(ModBlocks.COAL_PRESSURE_PLATE);
+
+                        output.accept(ModBlocks.COPPER_SAPLING);
+                        output.accept(ModBlocks.COPPER_LEAVES);
+                        output.accept(ModBlocks.SATURATED_COPPER_LOG);
+                        output.accept(ModBlocks.SATURATED_COPPER_WOOD);
+                        output.accept(ModBlocks.COPPER_LOG);
+                        output.accept(ModBlocks.COPPER_WOOD);
+                        output.accept(ModBlocks.STRIPPED_COPPER_LOG);
+                        output.accept(ModBlocks.STRIPPED_COPPER_WOOD);
+                        output.accept(ModBlocks.COPPER_PLANKS);
+                        output.accept(ModBlocks.COPPER_STAIRS);
+                        output.accept(ModBlocks.COPPER_SLAB);
+                        output.accept(ModBlocks.COPPER_FENCE_GATE);
+                        output.accept(ModBlocks.COPPER_FENCE);
+                        output.accept(ModBlocks.COPPER_BUTTON);
+                        output.accept(ModBlocks.COPPER_PRESSURE_PLATE);
+
+                        output.accept(ModBlocks.IRON_SAPLING);
+                        output.accept(ModBlocks.IRON_LEAVES);
+                        output.accept(ModBlocks.SATURATED_IRON_LOG);
+                        output.accept(ModBlocks.SATURATED_IRON_WOOD);
+                        output.accept(ModBlocks.IRON_LOG);
+                        output.accept(ModBlocks.IRON_WOOD);
+                        output.accept(ModBlocks.STRIPPED_IRON_LOG);
+                        output.accept(ModBlocks.STRIPPED_IRON_WOOD);
+                        output.accept(ModBlocks.IRON_PLANKS);
+                        output.accept(ModBlocks.IRON_STAIRS);
+                        output.accept(ModBlocks.IRON_SLAB);
+                        output.accept(ModBlocks.IRON_FENCE_GATE);
+                        output.accept(ModBlocks.IRON_FENCE);
+                        output.accept(ModBlocks.IRON_BUTTON);
+                        output.accept(ModBlocks.IRON_PRESSURE_PLATE);
 
                     }).build());
 

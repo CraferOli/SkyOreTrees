@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "skyoretrees:coal_acorn"
+    },
+    {
+      "item": "skyoretrees:coal_acorn"
+    },
+    {
+      "item": "skyoretrees:coal_resin"
+    },
+    {
+      "item": "skyoretrees:coal_resin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:coal"
+  }
+}

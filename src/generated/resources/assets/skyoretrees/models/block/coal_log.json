@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "skyoretrees:block/coal_log_top",
+    "side": "skyoretrees:block/coal_log"
+  }
+}

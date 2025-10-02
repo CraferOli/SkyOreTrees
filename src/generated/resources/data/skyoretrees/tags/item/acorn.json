@@ -2,6 +2,8 @@
   "values": [
     "skyoretrees:dirt_acorn",
     "skyoretrees:stone_acorn",
-    "skyoretrees:coal_acorn"
+    "skyoretrees:coal_acorn",
+    "skyoretrees:copper_acorn",
+    "skyoretrees:iron_acorn"
   ]
 }

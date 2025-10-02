@@ -12,4 +12,13 @@ public class ModTreeGrowers {
 
     public static final TreeGrower STONE = new TreeGrower(SkyOreTrees.MOD_ID + ":tree_stone",
             Optional.empty(), Optional.of(ModConfiguredFeatures.STONE_KEY), Optional.empty());
+
+    public static final TreeGrower COAL = new TreeGrower(SkyOreTrees.MOD_ID + ":tree_coal",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.COAL_KEY), Optional.empty());
+
+    public static final TreeGrower COPPER = new TreeGrower(SkyOreTrees.MOD_ID + ":tree_copper",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.COPPER_KEY), Optional.empty());
+
+    public static final TreeGrower IRON = new TreeGrower(SkyOreTrees.MOD_ID + ":tree_iron",
+            Optional.empty(), Optional.of(ModConfiguredFeatures.IRON_KEY), Optional.empty());
 }

@@ -1,6 +1,9 @@
 {
   "values": [
     "skyoretrees:dirt_fence",
-    "skyoretrees:stone_fence"
+    "skyoretrees:stone_fence",
+    "skyoretrees:coal_fence",
+    "skyoretrees:copper_fence",
+    "skyoretrees:iron_fence"
   ]
 }

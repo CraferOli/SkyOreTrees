@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyoretrees:block/coal_slab"
+    },
+    "type=double": {
+      "model": "skyoretrees:block/coal_planks"
+    },
+    "type=top": {
+      "model": "skyoretrees:block/coal_slab_top"
+    }
+  }
+}

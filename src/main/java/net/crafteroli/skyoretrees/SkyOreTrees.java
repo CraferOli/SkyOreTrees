@@ -3,9 +3,6 @@ package net.crafteroli.skyoretrees;
 import net.crafteroli.skyoretrees.block.ModBlocks;
 import net.crafteroli.skyoretrees.item.ModCreativeModeTabs;
 import net.crafteroli.skyoretrees.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.level.ItemLike;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;

@@ -1,6 +1,9 @@
 {
   "values": [
     "skyoretrees:dirt_stairs",
-    "skyoretrees:stone_stairs"
+    "skyoretrees:stone_stairs",
+    "skyoretrees:coal_stairs",
+    "skyoretrees:copper_stairs",
+    "skyoretrees:iron_stairs"
   ]
 }

@@ -1,10 +1,13 @@
-// 1.21	2025-09-30T23:32:23.0736836	Tags for minecraft:item mod id skyoretrees
+// 1.21	2025-10-02T02:12:31.5015316	Tags for minecraft:item mod id skyoretrees
 2518d7d296be822a3e3e5d4d2440cfa376cbf30c data/minecraft/tags/item/leaves.json
-8baa3583de8533507d44c53c89ee77bbe9d42fef data/minecraft/tags/item/logs_that_burn.json
+2b62dbdaf892040694ebb6957a206830f03113e3 data/minecraft/tags/item/logs_that_burn.json
 6952552354ebbdc96247e4e97da54ec95dea3bb6 data/minecraft/tags/item/planks.json
-40a481fb616e1c39bf9b4832262359ed5eb1bd98 data/skyoretrees/tags/item/acorn.json
+0e3d718b69f8977cbbc4b07c64a8f9347b73cd5a data/skyoretrees/tags/item/acorn.json
+88b9a6aef269dd1b6f4fc96e74ab3ba2232e4490 data/skyoretrees/tags/item/coal_logs.json
+3b8002f3c942dc04ece9386cc19935316ce8f31d data/skyoretrees/tags/item/copper_logs.json
 bc44acd4680f18ae77d7aa46566c673ab4f45df9 data/skyoretrees/tags/item/dirt_logs.json
-4e781969fc697a5dfd67df764aa95df243581120 data/skyoretrees/tags/item/leaves.json
-83985a9098b0bff724e306ca3aa73e140520d3c0 data/skyoretrees/tags/item/planks.json
-4b0831ca5062b5916b4d9620b2c0a2fa7be26c99 data/skyoretrees/tags/item/resin.json
+0225b3ed6f07978d32f365e7fbe6e10dc6ee1035 data/skyoretrees/tags/item/iron_logs.json
+62c6475a4d87bcc34296e5d9155717a3c04dda5a data/skyoretrees/tags/item/leaves.json
+603039103f0c92c6d9682c15e9c81081183a8aed data/skyoretrees/tags/item/planks.json
+d2ae1c10d554d2da467cb21a1db7a29816294ad7 data/skyoretrees/tags/item/resin.json
 d6f7b6302ee70a050cf2191d740a287f6d0e3447 data/skyoretrees/tags/item/stone_logs.json

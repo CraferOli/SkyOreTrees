@@ -1,6 +1,9 @@
 {
   "values": [
     "skyoretrees:dirt_button",
-    "skyoretrees:stone_button"
+    "skyoretrees:stone_button",
+    "skyoretrees:coal_button",
+    "skyoretrees:copper_button",
+    "skyoretrees:iron_button"
   ]
 }

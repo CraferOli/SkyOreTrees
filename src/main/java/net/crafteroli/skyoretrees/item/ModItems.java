@@ -27,6 +27,18 @@ public class ModItems {
     public static final DeferredItem<Item> COAL_ACORN = ITEMS.register("coal_acorn",
             () -> new FuelItem(new Item.Properties().food(ModFoodProperties.COAL_ACORN), 600));
 
+    public static final DeferredItem<Item> COPPER_RESIN = ITEMS.register("copper_resin",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> COPPER_ACORN = ITEMS.register("copper_acorn",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ACORN)));
+
+    public static final DeferredItem<Item> IRON_RESIN = ITEMS.register("iron_resin",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> IRON_ACORN = ITEMS.register("iron_acorn",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ACORN)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

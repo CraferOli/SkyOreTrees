@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "skyoretrees:block/stripped_iron_log",
+    "side": "skyoretrees:block/stripped_iron_log"
+  }
+}

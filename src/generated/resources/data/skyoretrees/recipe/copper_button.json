@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "copper",
+  "ingredients": [
+    {
+      "item": "skyoretrees:copper_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyoretrees:copper_button"
+  }
+}

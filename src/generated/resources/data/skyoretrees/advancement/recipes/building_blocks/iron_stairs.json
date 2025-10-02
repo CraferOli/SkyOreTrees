@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "skyoretrees:iron_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "skyoretrees:iron_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "skyoretrees:iron_stairs"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_acorn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "skyoretrees:iron_acorn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "skyoretrees:1x_raw_iron"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_acorn"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "skyoretrees:1x_raw_iron"
+    ]
+  }
+}

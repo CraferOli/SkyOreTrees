@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "default": {
+        "feature": "skyoretrees:coal_tree",
+        "placement": []
+      },
+      "features": [
+        {
+          "chance": 0.15,
+          "feature": {
+            "feature": "skyoretrees:coal_tree_fancy",
+            "placement": []
+          }
+        }
+      ]
+    }
+  }

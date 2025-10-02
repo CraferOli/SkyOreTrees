@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "skyoretrees:block/copper_slab"
+    },
+    "type=double": {
+      "model": "skyoretrees:block/copper_planks"
+    },
+    "type=top": {
+      "model": "skyoretrees:block/copper_slab_top"
+    }
+  }
+}

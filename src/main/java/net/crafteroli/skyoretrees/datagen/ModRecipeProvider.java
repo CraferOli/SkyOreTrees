@@ -89,5 +89,89 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         pressurePlate(recipeOutput, ModBlocks.STONE_PRESSURE_PLATE, ModBlocks.STONE_PLANKS);
 
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COAL_PLANKS.get(), 4)
+                .requires(ModTags.Items.COAL_LOGS)
+                .unlockedBy("has_coal_logs", has(ModTags.Items.COAL_LOGS))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.COAL, 1)
+                .requires(ModItems.COAL_ACORN, 2)
+                .requires(ModItems.COAL_RESIN, 2)
+                .unlockedBy("has_coal_acorn", has(ModItems.COAL_ACORN))
+                        .save(recipeOutput, "skyoretrees:1x_coal");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.COAL, 2)
+                .requires(ModItems.COAL_ACORN, 4)
+                .requires(ModItems.COAL_RESIN, 4)
+                .unlockedBy("has_coal_acorn", has(ModItems.COAL_ACORN))
+                        .save(recipeOutput, "skyoretrees:2x_coal");
+
+        woodFromLogs(recipeOutput, ModBlocks.SATURATED_COAL_WOOD.get(), ModBlocks.SATURATED_COAL_LOG.get());
+        woodFromLogs(recipeOutput, ModBlocks.COAL_WOOD.get(), ModBlocks.COAL_LOG.get());
+        woodFromLogs(recipeOutput, ModBlocks.STRIPPED_COAL_WOOD.get(), ModBlocks.STRIPPED_COAL_LOG.get());
+        stairBuilder(ModBlocks.COAL_STAIRS, Ingredient.of(ModBlocks.COAL_PLANKS)).group("coal").unlockedBy("has_coal_planks", has(ModBlocks.COAL_PLANKS)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.COAL_SLAB, ModBlocks.COAL_PLANKS);
+        fenceGateBuilder(ModBlocks.COAL_FENCE_GATE, Ingredient.of(ModBlocks.COAL_PLANKS)).group("coal").unlockedBy("has_coal_planks", has(ModBlocks.COAL_PLANKS)).save(recipeOutput);
+        fenceBuilder(ModBlocks.COAL_FENCE, Ingredient.of(ModBlocks.COAL_PLANKS)).group("coal").unlockedBy("has_coal_planks", has(ModBlocks.COAL_PLANKS)).save(recipeOutput);
+        buttonBuilder(ModBlocks.COAL_BUTTON, Ingredient.of(ModBlocks.COAL_PLANKS)).group("coal").unlockedBy("has_coal_planks", has(ModBlocks.COAL_PLANKS)).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.COAL_PRESSURE_PLATE, ModBlocks.COAL_PLANKS);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.COPPER_PLANKS.get(), 4)
+                .requires(ModTags.Items.COPPER_LOGS)
+                .unlockedBy("has_copper_logs", has(ModTags.Items.COPPER_LOGS))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.RAW_COPPER, 1)
+                .requires(ModItems.COPPER_ACORN, 2)
+                .requires(ModItems.COPPER_RESIN, 2)
+                .unlockedBy("has_copper_acorn", has(ModItems.COPPER_ACORN))
+                        .save(recipeOutput, "skyoretrees:1x_raw_copper");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.RAW_COPPER, 2)
+                .requires(ModItems.COPPER_ACORN, 4)
+                .requires(ModItems.COPPER_RESIN, 4)
+                .unlockedBy("has_copper_acorn", has(ModItems.COPPER_ACORN))
+                        .save(recipeOutput, "skyoretrees:2x_raw_copper");
+
+        woodFromLogs(recipeOutput, ModBlocks.SATURATED_COPPER_WOOD.get(), ModBlocks.SATURATED_COPPER_LOG.get());
+        woodFromLogs(recipeOutput, ModBlocks.COPPER_WOOD.get(), ModBlocks.COPPER_LOG.get());
+        woodFromLogs(recipeOutput, ModBlocks.STRIPPED_COPPER_WOOD.get(), ModBlocks.STRIPPED_COPPER_LOG.get());
+        stairBuilder(ModBlocks.COPPER_STAIRS, Ingredient.of(ModBlocks.COPPER_PLANKS)).group("copper").unlockedBy("has_copper_planks", has(ModBlocks.COPPER_PLANKS)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.COPPER_SLAB, ModBlocks.COPPER_PLANKS);
+        fenceGateBuilder(ModBlocks.COPPER_FENCE_GATE, Ingredient.of(ModBlocks.COPPER_PLANKS)).group("copper").unlockedBy("has_copper_planks", has(ModBlocks.COPPER_PLANKS)).save(recipeOutput);
+        fenceBuilder(ModBlocks.COPPER_FENCE, Ingredient.of(ModBlocks.COPPER_PLANKS)).group("copper").unlockedBy("has_copper_planks", has(ModBlocks.COPPER_PLANKS)).save(recipeOutput);
+        buttonBuilder(ModBlocks.COPPER_BUTTON, Ingredient.of(ModBlocks.COPPER_PLANKS)).group("copper").unlockedBy("has_copper_planks", has(ModBlocks.COPPER_PLANKS)).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.COPPER_PRESSURE_PLATE, ModBlocks.COPPER_PLANKS);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.IRON_PLANKS.get(), 4)
+                .requires(ModTags.Items.IRON_LOGS)
+                .unlockedBy("has_iron_logs", has(ModTags.Items.IRON_LOGS))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.RAW_IRON, 1)
+                .requires(ModItems.IRON_ACORN, 2)
+                .requires(ModItems.IRON_RESIN, 2)
+                .unlockedBy("has_iron_acorn", has(ModItems.IRON_ACORN))
+                        .save(recipeOutput, "skyoretrees:1x_raw_iron");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.RAW_IRON, 2)
+                .requires(ModItems.IRON_ACORN, 4)
+                .requires(ModItems.IRON_RESIN, 4)
+                .unlockedBy("has_iron_acorn", has(ModItems.IRON_ACORN))
+                        .save(recipeOutput, "skyoretrees:2x_raw_iron");
+
+        woodFromLogs(recipeOutput, ModBlocks.SATURATED_IRON_WOOD.get(), ModBlocks.SATURATED_IRON_LOG.get());
+        woodFromLogs(recipeOutput, ModBlocks.IRON_WOOD.get(), ModBlocks.IRON_LOG.get());
+        woodFromLogs(recipeOutput, ModBlocks.STRIPPED_IRON_WOOD.get(), ModBlocks.STRIPPED_IRON_LOG.get());
+        stairBuilder(ModBlocks.IRON_STAIRS, Ingredient.of(ModBlocks.IRON_PLANKS)).group("iron").unlockedBy("has_iron_planks", has(ModBlocks.IRON_PLANKS)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.IRON_SLAB, ModBlocks.IRON_PLANKS);
+        fenceGateBuilder(ModBlocks.IRON_FENCE_GATE, Ingredient.of(ModBlocks.IRON_PLANKS)).group("iron").unlockedBy("has_iron_planks", has(ModBlocks.IRON_PLANKS)).save(recipeOutput);
+        fenceBuilder(ModBlocks.IRON_FENCE, Ingredient.of(ModBlocks.IRON_PLANKS)).group("iron").unlockedBy("has_iron_planks", has(ModBlocks.IRON_PLANKS)).save(recipeOutput);
+        buttonBuilder(ModBlocks.IRON_BUTTON, Ingredient.of(ModBlocks.IRON_PLANKS)).group("iron").unlockedBy("has_iron_planks", has(ModBlocks.IRON_PLANKS)).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.IRON_PRESSURE_PLATE, ModBlocks.IRON_PLANKS);
+
+
     }
 }

@@ -60,6 +60,54 @@ public class ModBlocks {
     public static final DeferredBlock<ButtonBlock> STONE_BUTTON = registerBlock("stone_button", () -> new ButtonBlock(BlockSetType.OAK, 20, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON)));
     public static final DeferredBlock<PressurePlateBlock> STONE_PRESSURE_PLATE = registerBlock("stone_pressure_plate", () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE)));
 
+    public static final DeferredBlock<Block> COAL_SAPLING = registerBlock("coal_sapling", () -> new SaplingBlock(ModTreeGrowers.COAL, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+    public static final DeferredBlock<Block> COAL_LEAVES = registerBlock("coal_leaves", () -> new ModFlammableLeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
+    public static final DeferredBlock<Block> SATURATED_COAL_LOG = registerBlock("saturated_coal_log", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> SATURATED_COAL_WOOD = registerBlock("saturated_coal_wood", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+    public static final DeferredBlock<Block> COAL_LOG = registerBlock("coal_log", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> COAL_WOOD = registerBlock("coal_wood", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+    public static final DeferredBlock<Block> STRIPPED_COAL_LOG = registerBlock("stripped_coal_log", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_COAL_WOOD = registerBlock("stripped_coal_wood", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+    public static final DeferredBlock<Block> COAL_PLANKS = registerBlock("coal_planks", () -> new ModFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)));
+    public static final DeferredBlock<StairBlock> COAL_STAIRS = registerBlock("coal_stairs", () -> new StairBlock(ModBlocks.COAL_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<SlabBlock> COAL_SLAB = registerBlock("coal_slab", () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<FenceGateBlock> COAL_FENCE_GATE = registerBlock("coal_fence_gate", () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE_GATE)));
+    public static final DeferredBlock<FenceBlock> COAL_FENCE = registerBlock("coal_fence", () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<ButtonBlock> COAL_BUTTON = registerBlock("coal_button", () -> new ButtonBlock(BlockSetType.OAK, 20, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON)));
+    public static final DeferredBlock<PressurePlateBlock> COAL_PRESSURE_PLATE = registerBlock("coal_pressure_plate", () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE)));
+
+    public static final DeferredBlock<Block> COPPER_SAPLING = registerBlock("copper_sapling", () -> new SaplingBlock(ModTreeGrowers.COPPER, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+    public static final DeferredBlock<Block> COPPER_LEAVES = registerBlock("copper_leaves", () -> new ModFlammableLeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
+    public static final DeferredBlock<Block> SATURATED_COPPER_LOG = registerBlock("saturated_copper_log", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> SATURATED_COPPER_WOOD = registerBlock("saturated_copper_wood", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+    public static final DeferredBlock<Block> COPPER_LOG = registerBlock("copper_log", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> COPPER_WOOD = registerBlock("copper_wood", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+    public static final DeferredBlock<Block> STRIPPED_COPPER_LOG = registerBlock("stripped_copper_log", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_COPPER_WOOD = registerBlock("stripped_copper_wood", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+    public static final DeferredBlock<Block> COPPER_PLANKS = registerBlock("copper_planks", () -> new ModFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)));
+    public static final DeferredBlock<StairBlock> COPPER_STAIRS = registerBlock("copper_stairs", () -> new StairBlock(ModBlocks.COPPER_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<SlabBlock> COPPER_SLAB = registerBlock("copper_slab", () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<FenceGateBlock> COPPER_FENCE_GATE = registerBlock("copper_fence_gate", () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE_GATE)));
+    public static final DeferredBlock<FenceBlock> COPPER_FENCE = registerBlock("copper_fence", () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<ButtonBlock> COPPER_BUTTON = registerBlock("copper_button", () -> new ButtonBlock(BlockSetType.OAK, 20, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON)));
+    public static final DeferredBlock<PressurePlateBlock> COPPER_PRESSURE_PLATE = registerBlock("copper_pressure_plate", () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE)));
+
+    public static final DeferredBlock<Block> IRON_SAPLING = registerBlock("iron_sapling", () -> new SaplingBlock(ModTreeGrowers.IRON, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));
+    public static final DeferredBlock<Block> IRON_LEAVES = registerBlock("iron_leaves", () -> new ModFlammableLeavesBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LEAVES)));
+    public static final DeferredBlock<Block> SATURATED_IRON_LOG = registerBlock("saturated_iron_log", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> SATURATED_IRON_WOOD = registerBlock("saturated_iron_wood", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+    public static final DeferredBlock<Block> IRON_LOG = registerBlock("iron_log", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> IRON_WOOD = registerBlock("iron_wood", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+    public static final DeferredBlock<Block> STRIPPED_IRON_LOG = registerBlock("stripped_iron_log", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)));
+    public static final DeferredBlock<Block> STRIPPED_IRON_WOOD = registerBlock("stripped_iron_wood", () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+    public static final DeferredBlock<Block> IRON_PLANKS = registerBlock("iron_planks", () -> new ModFlammableBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)));
+    public static final DeferredBlock<StairBlock> IRON_STAIRS = registerBlock("iron_stairs", () -> new StairBlock(ModBlocks.IRON_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_STAIRS)));
+    public static final DeferredBlock<SlabBlock> IRON_SLAB = registerBlock("iron_slab", () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SLAB)));
+    public static final DeferredBlock<FenceGateBlock> IRON_FENCE_GATE = registerBlock("iron_fence_gate", () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE_GATE)));
+    public static final DeferredBlock<FenceBlock> IRON_FENCE = registerBlock("iron_fence", () -> new FenceBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_FENCE)));
+    public static final DeferredBlock<ButtonBlock> IRON_BUTTON = registerBlock("iron_button", () -> new ButtonBlock(BlockSetType.OAK, 20, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_BUTTON)));
+    public static final DeferredBlock<PressurePlateBlock> IRON_PRESSURE_PLATE = registerBlock("iron_pressure_plate", () -> new PressurePlateBlock(BlockSetType.OAK, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PRESSURE_PLATE)));
+
 
 
 

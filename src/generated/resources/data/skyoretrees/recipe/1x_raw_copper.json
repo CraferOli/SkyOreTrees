@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "skyoretrees:copper_acorn"
+    },
+    {
+      "item": "skyoretrees:copper_acorn"
+    },
+    {
+      "item": "skyoretrees:copper_resin"
+    },
+    {
+      "item": "skyoretrees:copper_resin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:raw_copper"
+  }
+}

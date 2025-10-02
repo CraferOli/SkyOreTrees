@@ -1,6 +1,9 @@
 {
   "values": [
     "skyoretrees:dirt_leaves",
-    "skyoretrees:stone_leaves"
+    "skyoretrees:stone_leaves",
+    "skyoretrees:coal_leaves",
+    "skyoretrees:copper_leaves",
+    "skyoretrees:iron_leaves"
   ]
 }

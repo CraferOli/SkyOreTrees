@@ -13,6 +13,9 @@ public class ModConfiguredFeatures {
 
     public static final ResourceKey<ConfiguredFeature<?, ?>> DIRT_KEY = registerKey("tree_dirt");
     public static final ResourceKey<ConfiguredFeature<?, ?>> STONE_KEY = registerKey("tree_stone");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> COAL_KEY = registerKey("tree_coal");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> COPPER_KEY = registerKey("tree_copper");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> IRON_KEY = registerKey("tree_iron");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
     }

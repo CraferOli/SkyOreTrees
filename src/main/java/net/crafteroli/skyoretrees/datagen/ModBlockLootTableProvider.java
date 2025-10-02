@@ -51,6 +51,54 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.STONE_BUTTON.get());
         dropSelf(ModBlocks.STONE_PRESSURE_PLATE.get());
 
+        dropSelf(ModBlocks.COAL_SAPLING.get());
+        this.add(ModBlocks.COAL_LEAVES.get(), block -> createLeavesDrops(block, ModBlocks.COAL_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        dropSelf(ModBlocks.SATURATED_COAL_LOG.get());
+        dropSelf(ModBlocks.SATURATED_COAL_WOOD.get());
+        dropSelf(ModBlocks.COAL_LOG.get());
+        dropSelf(ModBlocks.COAL_WOOD.get());
+        dropSelf(ModBlocks.STRIPPED_COAL_LOG.get());
+        dropSelf(ModBlocks.STRIPPED_COAL_WOOD.get());
+        dropSelf(ModBlocks.COAL_PLANKS.get());
+        dropSelf(ModBlocks.COAL_STAIRS.get());
+        add(ModBlocks.COAL_SLAB.get(), block -> createSlabItemTable(ModBlocks.COAL_SLAB.get()));
+        dropSelf(ModBlocks.COAL_FENCE_GATE.get());
+        dropSelf(ModBlocks.COAL_FENCE.get());
+        dropSelf(ModBlocks.COAL_BUTTON.get());
+        dropSelf(ModBlocks.COAL_PRESSURE_PLATE.get());
+
+        dropSelf(ModBlocks.COPPER_SAPLING.get());
+        this.add(ModBlocks.COPPER_LEAVES.get(), block -> createLeavesDrops(block, ModBlocks.COPPER_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        dropSelf(ModBlocks.SATURATED_COPPER_LOG.get());
+        dropSelf(ModBlocks.SATURATED_COPPER_WOOD.get());
+        dropSelf(ModBlocks.COPPER_LOG.get());
+        dropSelf(ModBlocks.COPPER_WOOD.get());
+        dropSelf(ModBlocks.STRIPPED_COPPER_LOG.get());
+        dropSelf(ModBlocks.STRIPPED_COPPER_WOOD.get());
+        dropSelf(ModBlocks.COPPER_PLANKS.get());
+        dropSelf(ModBlocks.COPPER_STAIRS.get());
+        add(ModBlocks.COPPER_SLAB.get(), block -> createSlabItemTable(ModBlocks.COPPER_SLAB.get()));
+        dropSelf(ModBlocks.COPPER_FENCE_GATE.get());
+        dropSelf(ModBlocks.COPPER_FENCE.get());
+        dropSelf(ModBlocks.COPPER_BUTTON.get());
+        dropSelf(ModBlocks.COPPER_PRESSURE_PLATE.get());
+
+        dropSelf(ModBlocks.IRON_SAPLING.get());
+        this.add(ModBlocks.IRON_LEAVES.get(), block -> createLeavesDrops(block, ModBlocks.IRON_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        dropSelf(ModBlocks.SATURATED_IRON_LOG.get());
+        dropSelf(ModBlocks.SATURATED_IRON_WOOD.get());
+        dropSelf(ModBlocks.IRON_LOG.get());
+        dropSelf(ModBlocks.IRON_WOOD.get());
+        dropSelf(ModBlocks.STRIPPED_IRON_LOG.get());
+        dropSelf(ModBlocks.STRIPPED_IRON_WOOD.get());
+        dropSelf(ModBlocks.IRON_PLANKS.get());
+        dropSelf(ModBlocks.IRON_STAIRS.get());
+        add(ModBlocks.IRON_SLAB.get(), block -> createSlabItemTable(ModBlocks.IRON_SLAB.get()));
+        dropSelf(ModBlocks.IRON_FENCE_GATE.get());
+        dropSelf(ModBlocks.IRON_FENCE.get());
+        dropSelf(ModBlocks.IRON_BUTTON.get());
+        dropSelf(ModBlocks.IRON_PRESSURE_PLATE.get());
+
 
     }
 

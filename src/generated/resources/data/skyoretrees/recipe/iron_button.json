@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "iron",
+  "ingredients": [
+    {
+      "item": "skyoretrees:iron_planks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyoretrees:iron_button"
+  }
+}

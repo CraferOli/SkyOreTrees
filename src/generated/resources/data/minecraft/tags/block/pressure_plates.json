@@ -1,6 +1,9 @@
 {
   "values": [
     "skyoretrees:dirt_pressure_plate",
-    "skyoretrees:stone_pressure_plate"
+    "skyoretrees:stone_pressure_plate",
+    "skyoretrees:coal_pressure_plate",
+    "skyoretrees:copper_pressure_plate",
+    "skyoretrees:iron_pressure_plate"
   ]
 }

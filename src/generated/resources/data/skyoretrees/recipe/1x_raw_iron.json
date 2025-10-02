@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "skyoretrees:iron_acorn"
+    },
+    {
+      "item": "skyoretrees:iron_acorn"
+    },
+    {
+      "item": "skyoretrees:iron_resin"
+    },
+    {
+      "item": "skyoretrees:iron_resin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:raw_iron"
+  }
+}
